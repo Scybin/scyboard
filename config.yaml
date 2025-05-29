@@ -59,3 +59,18 @@ points:
           key.splay: -10
   mirror: &mirror
     distance: 22kx
+outlines:
+    raw:
+    - what: rectangle
+      where: true
+      size: [px, py]
+    keys:
+    - what: rectangle
+      where: true
+      size: [kx-0.5,ky-0.5]
+    board:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [0, 0]
