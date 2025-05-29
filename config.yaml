@@ -1,0 +1,55 @@
+meta:
+  engine: 4.1.0
+units:
+  # Proxy Spacing Variables
+  kx: cx
+  ky: cy
+  # Padding Variables
+  px: kx + 2
+  py: ky + 2
+points:
+  zones:
+    matrix:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor.shift: [50,-100] # Fix KiCad placement
+      columns:
+        outer:
+        pinky:
+          key.stagger: 0.1cx
+        ring:
+          key.stagger: 0.66cx
+        middle:
+          key.stagger: 0.25cx
+        index:
+          key.stagger: -0.25cx
+        inner:
+          key.stagger: -0.15cx
+      rows:
+        bottom:
+        home:
+        top:
+    thumb:
+      key:
+        padding: 1ky
+        spread: 1kx        
+      anchor:
+        ref: matrix_index_bottom
+        shift: [0.8cx, -1.25cx]
+      columns:
+        layer: 
+          key.name: thumb_layer
+          key.shift: [-0.25cx, -0cx]
+        space:
+          key.name: thumb_space
+          key.width: 1.5kx
+          key.rotate: -110
+        reach:
+          key.name: thumb_reach
+          key.width: 1.5kx
+          key.shift: [0.1cx, -0.60cx]
+          key.rotate: -100
+          key.splay: -15
+  mirror: &mirror
+    distance: 22kx
