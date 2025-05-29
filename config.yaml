@@ -33,23 +33,29 @@ points:
     thumb:
       key:
         padding: 1ky
-        spread: 1kx        
+        spread: 1kx
       anchor:
         ref: matrix_index_bottom
-        shift: [0.8cx, -1.25cx]
+        shift: [0, -1.25cx]
       columns:
+        tuck:
+          key.name: thumb_tuck
+          key.shift: [-0.34cx, 0.14cx]
         layer: 
           key.name: thumb_layer
           key.shift: [-0.25cx, -0cx]
+          key.splay: -10
         space:
           key.name: thumb_space
           key.width: 1.5kx
-          key.rotate: -110
+          key.shift: [-0.15cx, 0.13cx]
+          key.rotate: -90
+          key.splay: -10
         reach:
           key.name: thumb_reach
           key.width: 1.5kx
-          key.shift: [0.1cx, -0.60cx]
-          key.rotate: -100
-          key.splay: -15
+          key.shift: [-0.04cx, 0.03cx]
+          key.rotate: -90
+          key.splay: -10
   mirror: &mirror
     distance: 22kx
