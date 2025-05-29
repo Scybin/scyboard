@@ -57,6 +57,8 @@ points:
           key.shift: [-0.04cx, 0.03cx]
           key.rotate: -90
           key.splay: -10
+      rows:
+        cluster:
   mirror: &mirror
     distance: 22kx
 outlines:
@@ -74,3 +76,13 @@ outlines:
       points:
         - ref: matrix_outer_top
           shift: [0, 0]
+        - ref: matrix_pinky_top
+          shift: [0, 0]
+        - ref: matrix_ring_top
+          shift: [0, 0]
+        - ref: matrix_middle_top
+          shift: [0, 0]
+        - ref: matrix_index_top
+          shift: [0, 0]
+        - ref: matrix_inner_top
+          shift: [0, 0]                   
