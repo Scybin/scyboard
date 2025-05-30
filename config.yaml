@@ -63,6 +63,17 @@ points:
           key.splay: -10
       rows:
         cluster:
+    mcu:
+      anchor:
+        ref: matrix_inner_top
+      columns:
+        mcu:
+          key:
+            tags: [mcu]
+            width: mcu_height  # footprint width/height unintuitive
+            height: mcu_width
+            rotate: -90
+            shift: [kx+mcu_padding, -mcu_width/2-0.3]
   mirror: &mirror
     distance: 22kx
 outlines:
@@ -74,6 +85,12 @@ outlines:
     - what: rectangle
       where: true
       size: [kx-0.5,ky-0.5]
+    - what: rectangle
+      where: [thumb_space]
+      size: [1.5kx,ky]
+    - what: rectangle
+      where: [thumb_reach]
+      size: [1.5kx,ky]      
     master:
     - what: polygon
       operation: stack
@@ -98,17 +115,19 @@ outlines:
         - ref: matrix_inner_top
           shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
         - ref: matrix_inner_bottom
-          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
-        - ref: matrix_inner_bottom
-          shift: [1.5px, -0.7py]          
-        - ref: matrix_inner_bottom
-          shift: [2.4px, -1.3py]
-        - ref: matrix_inner_bottom
-          shift: [1.9px, -2.2py]   
-        - ref: matrix_inner_bottom
-          shift: [px, -1.7py]   
-        - ref: thumb_tuck
-          shift: [0.5px,-0.5py]            
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]      
+        - ref: thumb_reach
+          shift: [-0.8kx, -0.5py]
+        - ref: thumb_reach
+          shift: [-0.8kx, 0.5py]
+        - ref: thumb_reach
+          shift: [0.8kx, 0.5py]        
+        - ref: thumb_space
+          shift: [0.8kx, 0.5py]
+        - ref: thumb_space
+          shift: [0.8kx, -0.5py]          
+        - ref: thumb_layer
+          shift: [-0.5px,-0.5py]                    
         - ref: thumb_tuck
           shift: [-0.5px,-0.5py]               
         - ref: matrix_pinky_bottom
@@ -129,9 +148,12 @@ outlines:
         - ref: mirror_thumb_reach
           shift: [0, 0] 
         - ref: mirror_thumb_tuck
-          shift: [0, 0]                                   
+          shift: [0, 0]
         - ref: mirror_matrix_outer_bottom
-          shift: [0, 0] 
+          shift: [0, 0]
+    #nicenano:
+    #- what:
+      #opera
     combo:
       - name: master
       - operation: subtract
