@@ -1,22 +1,21 @@
 meta:
   engine: 4.1.0
 units:
-  # Shift Variable
-  sv: 0.2
-  # Proxy Spacing Variables
+  # Key Variables
   kx: cx # 18 mm width
   ky: cy # 17 mm height
-  # Padding Variables
   px: kx + 2
   py: ky + 2
   # Controller Variables
-  mcu_height: 34
+  mcu_height: 33
   mcu_width: 18
   mcu_padding: 1.5
-  # Misc Variables
+  # Reset Button Variables
   rst_height: 8.6
   rst_width: 5.8
   rst_padding: 2.7 # center to edge
+  rst_x: -2.65
+  rst_y: 5
 points:
   zones:
     matrix:
@@ -175,28 +174,28 @@ outlines:
     - what: rectangle
       where:
         ref: matrix_inner_top
-        shift: [kx+mcu_padding, -mcu_width/2-0.3]
+        shift: [kx+mcu_padding, -mcu_width/2+mcu_padding-0.5]
         rotate: -90
       size: [mcu_height, mcu_width]
     mirror_mcu_outline:
     - what: rectangle
       where:
         ref: mirror_matrix_inner_top
-        shift: [kx+mcu_padding, -mcu_width/2-0.3]
+        shift: [kx+mcu_padding, -mcu_width/2+mcu_padding-0.5]
         rotate: -270
       size: [mcu_height, mcu_width]
     rst_outline:
     - what: rectangle
       where:
         ref: matrix_inner_bottom
-        shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+        shift: [0.5px+mcu_padding+mcu_width+rst_x, rst_y]
         rotate: -270
       size: [rst_height, rst_width]
     mirror_rst_outline:
     - what: rectangle
       where:
         ref: mirror_matrix_inner_bottom
-        shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+        shift: [0.5px+mcu_padding+mcu_width+rst_x, rst_y]
         rotate: -270
       size: [rst_height, rst_width]   
     combo:
@@ -260,7 +259,7 @@ pcbs:
           to: RST
         where:
           ref: matrix_inner_bottom
-          shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+          shift: [0.5px+mcu_padding+mcu_width+rst_x, rst_y]
           rotate: -90
       rst_r:
         what: button
@@ -269,5 +268,13 @@ pcbs:
           to: RST
         where:
           ref: mirror_matrix_inner_bottom
-          shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+          shift: [0.5px+mcu_padding+mcu_width+rst_x, rst_y]
           rotate: -90
+      slider_l:
+        what: slider
+        params:
+          from: RAW
+          to: ''
+        where:
+          ref: matrix_inner_bottom
+          rotate: 90
