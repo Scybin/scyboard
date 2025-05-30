@@ -11,11 +11,10 @@ units:
   mcu_width: 18
   mcu_padding: 1.5
   # Reset Button Variables
-  rst_height: 8.6
+  rst_height: 8.9
   rst_width: 5.8
-  rst_padding: 2.7 # center to edge
   rst_x: -2.65
-  rst_y: 5
+  rst_y: 4.85
 points:
   zones:
     matrix:
@@ -214,7 +213,7 @@ outlines:
      - name: rst_outline
        operation: subtract   
      - name: mirror_rst_outline
-       operation: subtract           
+       operation: subtract   
 pcbs:
   keyboard:
     outlines.main.outline: combo
@@ -270,11 +269,3 @@ pcbs:
           ref: mirror_matrix_inner_bottom
           shift: [0.5px+mcu_padding+mcu_width+rst_x, rst_y]
           rotate: -90
-      slider_l:
-        what: slider
-        params:
-          from: RAW
-          to: ''
-        where:
-          ref: matrix_inner_bottom
-          rotate: 90
