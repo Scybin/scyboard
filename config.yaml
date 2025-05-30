@@ -70,7 +70,7 @@ outlines:
     - what: rectangle
       where: true
       size: [px, py]
-    keys:
+    master_keys:
     - what: rectangle
       where: true
       size: [kx-0.5,ky-0.5]
@@ -79,8 +79,8 @@ outlines:
       size: [1.5kx,ky]
     - what: rectangle
       where: [thumb_reach]
-      size: [1.5kx,ky]      
-    board:
+      size: [1.5kx,ky]  
+    master:
     - what: polygon
       operation: stack
       fillet: 2
@@ -128,25 +128,51 @@ outlines:
       operation: stack
       fillet: 2
       points:
-        - ref: mirror_matrix_outer_top
-          shift: [0, 0]
-        - ref: mirror_matrix_middle_top
-          shift: [0, 0]  
-        - ref: mirror_matrix_inner_top
-          shift: [0, 0] 
-        - ref: mirror_thumb_reach
-          shift: [0, 0] 
-        - ref: mirror_thumb_tuck
-          shift: [0, 0]
         - ref: mirror_matrix_outer_bottom
-          shift: [0, 0]
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [0.5px, -0.6py]
+        - ref: mirror_thumb_tuck
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_thumb_layer
+          shift: [-0.5px, -0.5py]
+        - ref: mirror_thumb_space
+          shift: [0.8kx, -0.5py]
+        - ref: mirror_thumb_space
+          shift: [0.8kx, 0.5py]
+        - ref: mirror_thumb_reach
+          shift: [0.8kx, 0.5py]
+        - ref: mirror_thumb_reach
+          shift: [-0.8kx, 0.5py]
+        - ref: mirror_thumb_reach
+          shift: [-0.8kx, -0.5py]
+        - ref: mirror_matrix_inner_bottom
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5px+mcu_padding+mcu_width+0.25, 0.5py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5px, 0.5py]
+        - ref: mirror_matrix_index_top
+          shift: [0.5px, 0.6py]
+        - ref: mirror_matrix_middle_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_ring_top
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_pinky_top
+          shift: [-0.5px, 0.7py]
+        - ref: mirror_matrix_outer_top
+          shift: [-0.5px, 0.5py]
     combo:
-      - name: board
+      - name: master
       - operation: subtract
-        name: keys
+        name: master_keys
+      - operation: add
+        name: slave
 pcbs:
   keyboard:
-    outlines.main.outline: board
+    outlines.main.outline: master
     footprints:
       choc_hotswap:
         what: choc
@@ -165,9 +191,11 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
-      mcu:
-        what: ceoloide/mcu_nice_nano
+      promicro:
+        what: promicro
+        params:
+          orientation: "down"
         where:
           ref: matrix_inner_top
-          shift: [0, 0]
-          rotate: 180
+          shift: [0,0]
+          rotate: 0
