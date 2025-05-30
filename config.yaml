@@ -47,7 +47,7 @@ points:
           key.shift: [-0.34cx, 0.14cx]
         layer: 
           key.name: thumb_layer
-          key.shift: [-0.25cx, -0cx]
+          key.shift: [-0.25cx, 0]
           key.splay: -10
         space:
           key.name: thumb_space
@@ -63,17 +63,6 @@ points:
           key.splay: -10
       rows:
         cluster:
-    mcu:
-      anchor:
-        ref: matrix_inner_top
-      columns:
-        mcu:
-          key:
-            tags: [mcu]
-            width: mcu_height  # footprint width/height unintuitive
-            height: mcu_width
-            rotate: -90
-            shift: [kx+mcu_padding, -mcu_width/2-0.3]
   mirror: &mirror
     distance: 22kx
 outlines:
@@ -91,7 +80,7 @@ outlines:
     - what: rectangle
       where: [thumb_reach]
       size: [1.5kx,ky]      
-    master:
+    board:
     - what: polygon
       operation: stack
       fillet: 2
@@ -151,10 +140,34 @@ outlines:
           shift: [0, 0]
         - ref: mirror_matrix_outer_bottom
           shift: [0, 0]
-    #nicenano:
-    #- what:
-      #opera
     combo:
-      - name: master
+      - name: board
       - operation: subtract
         name: keys
+pcbs:
+  keyboard:
+    outlines.main.outline: board
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      mcu:
+        what: ceoloide/mcu_nice_nano
+        where:
+          ref: matrix_inner_top
+          shift: [0, 0]
+          rotate: 180
