@@ -35,6 +35,7 @@ points:
         home:
         top:
     thumb:
+      #mirror: *mirror
       key:
         padding: 1ky
         spread: 1kx
@@ -75,21 +76,8 @@ outlines:
       where: true
       size: [kx-0.5,ky-0.5]
     - what: rectangle
-      where: [thumb_space]
+      where: [thumb_space, thumb_reach]
       size: [1.5kx,ky]
-    - what: rectangle
-      where: [thumb_reach]
-      size: [1.5kx,ky]
-    slave_keys:
-    - what: rectangle
-      where: mirror_matrix_outer_top
-      size: [kx-0.5, ky-0.5]
-    - what: rectangle
-      where: mirror_thumb_space
-      size: [1.5kx, ky]
-    - what: rectangle
-      where: mirror_thumb_reach
-      size: [1.5kx, ky]
     master:
     - what: polygon
       operation: stack
@@ -180,8 +168,6 @@ outlines:
        name: master_keys
      - operation: add
        name: slave
-     - operation: add
-       name: slave_keys   
 pcbs:
   keyboard:
     outlines.main.outline: combo
@@ -203,11 +189,19 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
-      promicro:
+      promicro_l:
         what: promicro
         params:
           orientation: "down"
         where:
           ref: matrix_inner_top
           shift: [0,0]
-          rotate: 0
+          rotate: -90
+      promicro_r:
+        what: promicro
+        params:
+          orientation: "down"
+        where:
+          ref: mirror_matrix_inner_top
+          shift: [0,0]
+          rotate: -270
