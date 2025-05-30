@@ -1,6 +1,8 @@
 meta:
   engine: 4.1.0
 units:
+  # Shift Variable
+  sv: 0.2
   # Proxy Spacing Variables
   kx: cx # 18 mm width
   ky: cy # 17 mm height
@@ -11,6 +13,10 @@ units:
   mcu_height: 34
   mcu_width: 18
   mcu_padding: 1.5
+  # Misc Variables
+  rst_height: 8.6
+  rst_width: 5.8
+  rst_padding: 2.7 # center to edge
 points:
   zones:
     matrix:
@@ -179,16 +185,23 @@ outlines:
         shift: [kx+mcu_padding, -mcu_width/2-0.3]
         rotate: -270
       size: [mcu_height, mcu_width]
-    oled_outline:
+    rst_outline:
     - what: rectangle
       where:
-        ref: matrix_inner_top
-        shift: [19.5, -28.5]
-        rotate: 90
-      size: [3, 12]
+        ref: matrix_inner_bottom
+        shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+        rotate: -270
+      size: [rst_height, rst_width]
+    mirror_rst_outline:
+    - what: rectangle
+      where:
+        ref: mirror_matrix_inner_bottom
+        shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+        rotate: -270
+      size: [rst_height, rst_width]   
     combo:
      - name: master
-     - operation: subtract
+     - operation: add
        name: master_keys
      - name: slave
      - operation: subtract
@@ -199,8 +212,10 @@ outlines:
        operation: subtract
      - name: mirror_mcu_outline
        operation: subtract
-     - name: oled_outline
-       operation: subtract
+     - name: rst_outline
+       operation: subtract   
+     - name: mirror_rst_outline
+       operation: subtract           
 pcbs:
   keyboard:
     outlines.main.outline: combo
@@ -222,7 +237,7 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
-      promicro_l:
+      mcu_l:
         what: promicro
         params:
           orientation: "down"
@@ -230,7 +245,7 @@ pcbs:
           ref: matrix_inner_top
           shift: [kx+mcu_padding, -mcu_width/2-0.3]
           rotate: -90
-      promicro_r:
+      mcu_r:
         what: promicro
         params:
           orientation: "down"
@@ -238,13 +253,21 @@ pcbs:
           ref: mirror_matrix_inner_top
           shift: [kx+mcu_padding, -mcu_width/2-0.3]
           rotate: -270
-      oled:
-        what: oled
-        params: 
-          side: "f"
-          SDA: P2
-          SCL: P3
-        where: 
-          ref: matrix_inner_top
-          shift: [13.5, -30]
-          rotate: 90
+      rst_l:
+        what: button
+        params:
+          from: GND
+          to: RST
+        where:
+          ref: matrix_inner_bottom
+          shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+          rotate: -90
+      rst_r:
+        what: button
+        params:
+          from: GND
+          to: RST
+        where:
+          ref: mirror_matrix_inner_bottom
+          shift: [0.5px+mcu_padding+mcu_width+0.25-rst_padding-sv, 3]
+          rotate: -90
