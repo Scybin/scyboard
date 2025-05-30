@@ -32,12 +32,10 @@ points:
           key.stagger: 0.25cx
         index:
           key.stagger: -0.25cx
-          key.column_net: P0
         inner:
           key.stagger: -0.15cx
       rows:
         bottom:
-          row_net: P1
         home:
         top:
     thumb:
