@@ -165,6 +165,27 @@ outlines:
           shift: [-0.5px, 0.7py]
         - ref: mirror_matrix_outer_top
           shift: [-0.5px, 0.5py]
+    mcu_outline:
+    - what: rectangle
+      where:
+        ref: matrix_inner_top
+        shift: [kx+mcu_padding, -mcu_width/2-0.3]
+        rotate: -90
+      size: [mcu_height, mcu_width]
+    mirror_mcu_outline:
+    - what: rectangle
+      where:
+        ref: mirror_matrix_inner_top
+        shift: [kx+mcu_padding, -mcu_width/2-0.3]
+        rotate: -270
+      size: [mcu_height, mcu_width]
+    oled_outline:
+    - what: rectangle
+      where:
+        ref: matrix_inner_top
+        shift: [19.5, -28.5]
+        rotate: 90
+      size: [3, 12]
     combo:
      - name: master
      - operation: subtract
@@ -174,6 +195,12 @@ outlines:
        name: master_keys
      - operation: subtract
        name: mirror_thumb_keys
+     - name: mcu_outline
+       operation: subtract
+     - name: mirror_mcu_outline
+       operation: subtract
+     - name: oled_outline
+       operation: subtract
 pcbs:
   keyboard:
     outlines.main.outline: combo
@@ -211,3 +238,13 @@ pcbs:
           ref: mirror_matrix_inner_top
           shift: [kx+mcu_padding, -mcu_width/2-0.3]
           rotate: -270
+      oled:
+        what: oled
+        params: 
+          side: "f"
+          SDA: P2
+          SCL: P3
+        where: 
+          ref: matrix_inner_top
+          shift: [13.5, -30]
+          rotate: 90
