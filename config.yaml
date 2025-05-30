@@ -77,6 +77,10 @@ outlines:
     - what: rectangle
       where: [thumb_space, thumb_reach]
       size: [1.5kx,ky]
+    mirror_thumb_keys:
+    - what: rectangle
+      where: [mirror_thumb_space, mirror_thumb_reach]
+      size: [1.5kx, ky]
     master:
     - what: polygon
       operation: stack
@@ -168,6 +172,8 @@ outlines:
      - name: slave
      - operation: subtract
        name: master_keys
+     - operation: subtract
+       name: mirror_thumb_keys
 pcbs:
   keyboard:
     outlines.main.outline: combo
