@@ -7,6 +7,10 @@ units:
   # Padding Variables
   px: kx + 2
   py: ky + 2
+  # Controller Variables
+  mcu_height: 34
+  mcu_width: 18
+  mcu_padding: 1.5
 points:
   zones:
     matrix:
@@ -70,19 +74,63 @@ outlines:
     - what: rectangle
       where: true
       size: [kx-0.5,ky-0.5]
-    board:
+    master:
     - what: polygon
       operation: stack
+      fillet: 2
       points:
         - ref: matrix_outer_top
-          shift: [0, 0]
+          shift: [-0.5px, 0.5py]
         - ref: matrix_pinky_top
-          shift: [0, 0]
+          shift: [-0.5px, 0.7py]  
         - ref: matrix_ring_top
-          shift: [0, 0]
+          shift: [-0.5px, 0.5py]                     
         - ref: matrix_middle_top
-          shift: [0, 0]
+          shift: [-0.5px, 0.5py] 
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.5py]  
         - ref: matrix_index_top
-          shift: [0, 0]
+          shift: [0.5px, 0.6py]   
         - ref: matrix_inner_top
-          shift: [0, 0]                   
+          shift: [0.5px, 0.5py]                          
+        - ref: matrix_inner_top
+          shift: [0.5px+mcu_padding+mcu_width+0.25, 0.5py]  
+        - ref: matrix_inner_top
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py] 
+        - ref: matrix_inner_bottom
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]  
+        - ref: matrix_inner_bottom
+          shift: [2.5px, -0.8py]                           
+        - ref: thumb_reach
+          shift: [0.1px, 0.9py]          
+        - ref: thumb_reach
+          shift: [0.5px, 1py]
+        - ref: thumb_tuck
+          shift: [0.5px,-0.5py]            
+        - ref: thumb_tuck
+          shift: [-0.5px,-0.5py]               
+        - ref: matrix_pinky_bottom
+          shift: [0.5px,-0.6py]                                      
+        - ref: matrix_outer_bottom
+          shift: [-0.5px,-0.5py]
+    slave:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        - ref: mirror_matrix_outer_top
+          shift: [0, 0]
+        - ref: mirror_matrix_middle_top
+          shift: [0, 0]  
+        - ref: mirror_matrix_inner_top
+          shift: [0, 0] 
+        - ref: mirror_thumb_reach
+          shift: [0, 0] 
+        - ref: mirror_thumb_tuck
+          shift: [0, 0]                                   
+        - ref: mirror_matrix_outer_bottom
+          shift: [0, 0] 
+    combo:
+      - name: master
+      - operation: subtract
+        name: keys              
