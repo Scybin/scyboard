@@ -201,7 +201,7 @@ pcbs:
           orientation: "down"
         where:
           ref: matrix_inner_top
-          shift: [0,0]
+          shift: [kx+mcu_padding, -mcu_width/2-0.3]
           rotate: -90
       promicro_r:
         what: promicro
@@ -209,5 +209,5 @@ pcbs:
           orientation: "down"
         where:
           ref: mirror_matrix_inner_top
-          shift: [0,0]
+          shift: [kx+mcu_padding, -mcu_width/2-0.3]
           rotate: -270
