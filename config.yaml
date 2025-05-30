@@ -2,8 +2,8 @@ meta:
   engine: 4.1.0
 units:
   # Proxy Spacing Variables
-  kx: cx
-  ky: cy
+  kx: cx # 18 mm width
+  ky: cy # 17 mm height
   # Padding Variables
   px: kx + 2
   py: ky + 2
@@ -82,29 +82,31 @@ outlines:
         - ref: matrix_outer_top
           shift: [-0.5px, 0.5py]
         - ref: matrix_pinky_top
-          shift: [-0.5px, 0.7py]  
+          shift: [-0.5px, 0.7py]
         - ref: matrix_ring_top
-          shift: [-0.5px, 0.5py]                     
+          shift: [-0.5px, 0.5py]
         - ref: matrix_middle_top
-          shift: [-0.5px, 0.5py] 
+          shift: [-0.5px, 0.5py]
         - ref: matrix_middle_top
-          shift: [0.5px, 0.5py]  
+          shift: [0.5px, 0.5py]
         - ref: matrix_index_top
-          shift: [0.5px, 0.6py]   
+          shift: [0.5px, 0.6py]
         - ref: matrix_inner_top
-          shift: [0.5px, 0.5py]                          
+          shift: [0.5px, 0.5py]
         - ref: matrix_inner_top
-          shift: [0.5px+mcu_padding+mcu_width+0.25, 0.5py]  
+          shift: [0.5px+mcu_padding+mcu_width+0.25, 0.5py]
         - ref: matrix_inner_top
-          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py] 
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
         - ref: matrix_inner_bottom
-          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]  
+          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
         - ref: matrix_inner_bottom
-          shift: [2.5px, -0.8py]                           
-        - ref: thumb_reach
-          shift: [0.1px, 0.9py]          
-        - ref: thumb_reach
-          shift: [0.5px, 1py]
+          shift: [1.5px, -0.7py]          
+        - ref: matrix_inner_bottom
+          shift: [2.4px, -1.3py]
+        - ref: matrix_inner_bottom
+          shift: [1.9px, -2.2py]   
+        - ref: matrix_inner_bottom
+          shift: [px, -1.7py]   
         - ref: thumb_tuck
           shift: [0.5px,-0.5py]            
         - ref: thumb_tuck
@@ -133,4 +135,4 @@ outlines:
     combo:
       - name: master
       - operation: subtract
-        name: keys              
+        name: keys
