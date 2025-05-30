@@ -79,7 +79,17 @@ outlines:
       size: [1.5kx,ky]
     - what: rectangle
       where: [thumb_reach]
-      size: [1.5kx,ky]  
+      size: [1.5kx,ky]
+    slave_keys:
+    - what: rectangle
+      where: mirror_matrix_outer_top
+      size: [kx-0.5, ky-0.5]
+    - what: rectangle
+      where: mirror_thumb_space
+      size: [1.5kx, ky]
+    - what: rectangle
+      where: mirror_thumb_reach
+      size: [1.5kx, ky]
     master:
     - what: polygon
       operation: stack
@@ -165,14 +175,16 @@ outlines:
         - ref: mirror_matrix_outer_top
           shift: [-0.5px, 0.5py]
     combo:
-      - name: master
-      - operation: subtract
-        name: master_keys
-      - operation: add
-        name: slave
+     - name: master
+     - operation: subtract
+       name: master_keys
+     - operation: add
+       name: slave
+     - operation: add
+       name: slave_keys   
 pcbs:
   keyboard:
-    outlines.main.outline: master
+    outlines.main.outline: combo
     footprints:
       choc_hotswap:
         what: choc
