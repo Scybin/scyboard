@@ -1,5 +1,5 @@
 meta:
-  engine: 4.1.0
+  engine: 4.0.4
 units:
   # Key Variables
   kx: cx # 18 mm width
@@ -32,12 +32,10 @@ points:
           key.stagger: 0.25cx
         index:
           key.stagger: -0.25cx
-          key.column_net: P0
         inner:
           key.stagger: -0.15cx
       rows:
         bottom:
-          row_net: P1
         home:
         top:
     thumb:
