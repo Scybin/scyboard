@@ -2060,24 +2060,90 @@
 		)
 		(uuid "ffb58c5f-658d-43b8-9bbb-d7ff4f59ea47")
 	)
-	(global_label "Col 6"
+	(global_label "Col 1"
 		(shape input)
-		(at 101.6 43.18 180)
+		(at 132.08 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "14c02107-3cd5-44b8-b2a2-3cad2d620b85")
+		(uuid "0aa2a2a7-aca6-4c5c-88b8-f93f8aee3812")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 43.18 0)
+			(at 140.3265 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 6"
+		(shape input)
+		(at 132.08 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19aea4ba-db52-474f-b092-7e282659edcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 5"
+		(shape input)
+		(at 132.08 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1acd46ae-817f-46f9-8ca5-4f4336668de7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3265 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 4"
+		(shape input)
+		(at 132.08 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b1a673e-b2e1-45ba-b3dc-88529655cbea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3265 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2122,6 +2188,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 101.6 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34adf22b-3d7b-4e6e-9b62-b77bfbd73b7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2205,28 +2293,6 @@
 		(uuid "489c71cd-4e55-4021-8e81-4588ade1f218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.374 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 3"
-		(shape input)
-		(at 101.6 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bbde856-3bf1-4b4d-882d-2084ae7b343c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,28 +2544,6 @@
 			)
 		)
 	)
-	(global_label "Row 4"
-		(shape input)
-		(at 132.08 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7edc50be-d640-419e-95f0-ceb3b1f2248b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row 8"
 		(shape input)
 		(at 275.59 39.37 0)
@@ -2513,28 +2557,6 @@
 		(uuid "803a1770-c61b-4e31-a909-2fbad32e0e8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.5018 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 2"
-		(shape input)
-		(at 132.08 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "830c121e-6898-4e69-8d19-a1181a216345")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,50 +2588,6 @@
 			)
 		)
 	)
-	(global_label "Row 3"
-		(shape input)
-		(at 132.08 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9010915b-96c0-459d-a3bb-834b72685b94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 1"
-		(shape input)
-		(at 101.6 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "923df4d3-09c9-4e88-ab26-37a2631ae5e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row 1"
 		(shape input)
 		(at 83.82 39.37 0)
@@ -2628,28 +2606,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 4"
-		(shape input)
-		(at 101.6 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae992fee-5416-44e0-9172-ba9402f894b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2720,6 +2676,28 @@
 			)
 		)
 	)
+	(global_label "Col 3"
+		(shape input)
+		(at 132.08 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beefe76a-e24d-43f3-ab5f-bdee3ae0f3ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3265 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 9"
 		(shape input)
 		(at 232.41 21.59 90)
@@ -2733,28 +2711,6 @@
 		(uuid "c07c7725-d0b1-4369-b53a-a8765e9abeef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.41 13.3435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 1"
-		(shape input)
-		(at 132.08 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2a3a299-df5f-4dda-b1ed-003251f7cb09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,9 +2742,9 @@
 			)
 		)
 	)
-	(global_label "Col 5"
+	(global_label "Row 3"
 		(shape input)
-		(at 101.6 40.64 180)
+		(at 101.6 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2796,9 +2752,31 @@
 			)
 			(justify right)
 		)
-		(uuid "d0e3e54e-5fad-4b3f-b5eb-d8c7738da8a3")
+		(uuid "c3436cd7-9ed6-4312-870b-967835c1d13c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 40.64 0)
+			(at 92.6882 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 4"
+		(shape input)
+		(at 101.6 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d227254b-6432-4172-b9b7-85fae794526a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,6 +2830,28 @@
 			)
 		)
 	)
+	(global_label "Col 2"
+		(shape input)
+		(at 132.08 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d500db0e-be30-4a29-aa95-832515089198")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3265 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 8"
 		(shape input)
 		(at 163.83 33.02 180)
@@ -2896,6 +2896,28 @@
 			)
 		)
 	)
+	(global_label "Row 2"
+		(shape input)
+		(at 101.6 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e207489f-6064-4989-b9c0-2584d8a7defd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.6882 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 6"
 		(shape input)
 		(at 78.74 22.86 90)
@@ -2914,28 +2936,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col 2"
-		(shape input)
-		(at 101.6 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efe51182-1437-4a70-ba0b-424503f086aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.3535 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3036,7 +3036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 275.59 35.56 0)
 			(effects
 				(font
@@ -3212,7 +3212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 224.79 60.96 0)
 			(effects
 				(font
@@ -3368,7 +3368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 224.79 111.76 0)
 			(effects
 				(font
@@ -3660,7 +3660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 33.02 86.36 0)
 			(effects
 				(font
@@ -4108,7 +4108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 20.32 35.56 0)
 			(effects
 				(font
@@ -4196,7 +4196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 275.59 60.96 0)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 237.49 60.96 0)
 			(effects
 				(font
@@ -5371,7 +5371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -5527,7 +5527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 20.32 86.36 0)
 			(effects
 				(font
@@ -5615,7 +5615,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 58.42 86.36 0)
 			(effects
 				(font
@@ -5859,7 +5859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 224.79 86.36 0)
 			(effects
 				(font
@@ -5947,7 +5947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -6035,7 +6035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 71.12 35.56 0)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 237.49 111.76 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -7203,7 +7203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -7291,7 +7291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.09 111.76 0)
 			(effects
 				(font
@@ -7379,7 +7379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 71.12 60.96 0)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.19 111.76 0)
 			(effects
 				(font
@@ -7555,7 +7555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.19 60.96 0)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.19 35.56 0)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -8186,7 +8186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.19 86.36 0)
 			(effects
 				(font
@@ -8342,7 +8342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 237.49 86.36 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 45.72 35.56 0)
 			(effects
 				(font
@@ -8586,7 +8586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 20.32 60.96 0)
 			(effects
 				(font
@@ -8674,7 +8674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 45.72 111.76 0)
 			(effects
 				(font
@@ -8830,7 +8830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -8986,7 +8986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 275.59 86.36 0)
 			(effects
 				(font
@@ -9074,7 +9074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.09 86.36 0)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 71.12 111.76 0)
 			(effects
 				(font
@@ -9318,7 +9318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -9542,7 +9542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 83.82 35.56 0)
 			(effects
 				(font
@@ -9766,7 +9766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -9854,7 +9854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 33.02 60.96 0)
 			(effects
 				(font
@@ -9942,7 +9942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 262.89 35.56 0)
 			(effects
 				(font
