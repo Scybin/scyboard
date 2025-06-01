@@ -12,8 +12,8 @@ units:
   py: ky + 2 # vertical padding (19mm)
   ks: 18.5 # horizontal space between columns (default: 19)
   kp: 17.5 # vertical padding between keys (deafult: 19)
-  kcow: 13.8 # key cutout hole width (cherry, choc v2: 14, choc v1: 13.8)
-  kcoh: 13.8 # key cutout hole height (cherry, choc v2: 14, choc v1: 13.8)
+  kcow: 13.8 # key cutout hole width
+  kcoh: 13.8 # key cutout hole height
   keycw: 17.5 # keycap width (cherry: 18, choc: 17.5)
   keych: 16.5 # keycap height (cherry: 18, choc: 16.5)  
   vertical_diode_shift: 1.5 # How much to shift to avoid overlap
@@ -37,6 +37,15 @@ units:
   mcu_height: 33
   mcu_width: 18
   mcu_padding: 1.5
+  # JST Variables
+  jst_x: 17.05
+  jst_y: -34.01
+  # Reset Switch Variables
+  rst_x: 27.884
+  rst_y: -28.5
+  # On Off Switch Variables
+  pwr_x: 28.25
+  pwr_y: rst_y-9.35
 points:
   zones:
     matrix:
@@ -168,19 +177,12 @@ outlines:
           shift: [0.5px,-0.6py]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
-    mcu_outline:
-    - what: rectangle
-      where:
-        ref: matrix_inner_top
-        shift: [kx+mcu_padding, -mcu_width/2+mcu_padding-0.5]
-        rotate: -90
-      size: [mcu_height, mcu_width]
     combo:
      - name: master
      - operation: add
        name: keys
 pcbs:
-  keyboard:
+  scyboard:
     template: kicad8
     outlines:
       main:
@@ -236,7 +238,7 @@ pcbs:
         what: ceoloide/mcu_nice_nano
         where:
           ref: matrix_inner_top
-          shift: [kx+mcu_padding, -mcu_width/2-0.3]
+          shift: [kx+mcu_padding, -mcu_width/2+1.875]
         params:
           P0: DAT
           P1: LED
@@ -267,7 +269,7 @@ pcbs:
           to: RAW
           reversible: true
         adjust:
-          shift: [1.5 ks -0.5, 0.375 kp -46.50]
+          shift: [1.5 ks -0.5+1, pwr_y]
       reset_switch:
         what: ceoloide/reset_switch_smd_side
         where: matrix_inner_top
@@ -277,7 +279,7 @@ pcbs:
           reversible: true
           include_bosses: true
         adjust:
-          shift: [19.704, 0.24 kp - 0.1]    
+          shift: [rst_x, rst_y]    
       battery_connector:  
         what: ceoloide/battery_connector_jst_ph_2
         where: matrix_inner_top
@@ -287,6 +289,5 @@ pcbs:
           reversible: true
           include_courtyard: false
         adjust:
-          shift: [0.5 ks + 7.25, 0.375 kp -45.25]
+          shift: [jst_x, jst_y]
           rotate: 90                
-      
