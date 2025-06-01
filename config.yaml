@@ -20,7 +20,7 @@ units:
   horizontal_diode_shift: -0.5 kcow - 0.85
   diode_rotation: -180 # Diode rotation
   switch_rotation: 180 # Hotswap south, led north
-  # Physical measures
+  # Physical Measures
   screw_radius: 1.1 # M2 screws
   screw_diameter: screw_radius * 2
   screw_head_radius: 2.05
@@ -89,53 +89,49 @@ points:
       key:
         padding: ky
         spread: kx
+        stagger: 1
       anchor:
         ref: matrix_index_bottom
-        shift: [0, -1.25cx]
       columns:
         tuck:
           key:
             column_net: C2
             name: thumb_tuck
-            shift: [-0.34cx, 0.14cx]
+            shift: [-0.5cx, -1cx]
         layer: 
           key:
             column_net: C3
             name: thumb_layer
-            shift: [-0.25cx, 0]
-            splay: -10
+            shift: [-0.42cx, -1.22cx]
+            rotate: -15
         space:
           key:
             column_net: C4
             name: thumb_space
             width: 1.5kx
-            shift: [-0.15cx, 0.13cx]
-            rotate: -90
-            splay: -10
+            shift: [-0.3cx, -1.4cx]
+            rotate: -117
         reach:
           key:
            column_net: C5
            name: thumb_reach
            width: 1.5kx
-           shift: [-0.04cx, 0.03cx]
-           rotate: -90
-           splay: -10
+           shift: [-0.4cx, -2cx]
+           rotate: -124
       rows:
         cluster:
           row_net: R3
 outlines:
-    raw:
+    keycap_outline:
     - what: rectangle
+      fillet: 2
       where: true
-      size: [px, py]
-    keys:
+      size: [keycw,keych]
     - what: rectangle
-      where: true
-      size: [kx-0.5,ky-0.5]
-    - what: rectangle
+      fillet: 2
       where: [thumb_space, thumb_reach]
       size: [1.5kx,ky]
-    master:
+    pcb:
     - what: polygon
       operation: stack
       fillet: 2
@@ -161,17 +157,17 @@ outlines:
         - ref: matrix_inner_bottom
           shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]      
         - ref: thumb_reach
-          shift: [-0.8kx, -0.5py]
+          shift: [-0.8kx, -0.45py]
         - ref: thumb_reach
           shift: [-0.8kx, 0.5py]
         - ref: thumb_reach
           shift: [0.8kx, 0.5py]        
         - ref: thumb_space
-          shift: [0.8kx, 0.5py]
+          shift: [0.8kx, 0.45py]
         - ref: thumb_space
-          shift: [0.8kx, -0.5py]          
+          shift: [0.8kx, -0.45py]          
         - ref: thumb_layer
-          shift: [-0.5px,-0.5py]                    
+          shift: [-0.45px,-0.5py]                    
         - ref: thumb_tuck
           shift: [-0.5px,-0.5py]               
         - ref: matrix_pinky_bottom
@@ -179,15 +175,16 @@ outlines:
         - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
     combo:
-     - name: master
-     - operation: add
-       name: keys
+    - what: outline
+      name: pcb
+    - operation: subtract
+      name: keycap_outline
 pcbs:
   scyboard:
     template: kicad8
     outlines:
       main:
-        outline: combo
+        outline: pcb
     footprints:
       key_switches_b:
         what: ceoloide/switch_choc_v1_v2
