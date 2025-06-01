@@ -38,8 +38,9 @@ units:
   mcu_width: 18
   mcu_padding: 1.5
   # JST Variables
-  jst_x: 17.05
+  jst_x: 18.45
   jst_y: -34.01
+  jst_shift: 3.5
   # Reset Switch Variables
   rst_x: 27.884
   rst_y: -28.5
@@ -289,5 +290,5 @@ pcbs:
           reversible: true
           include_courtyard: false
         adjust:
-          shift: [jst_x, jst_y]
+          shift: [jst_x+jst_shift, jst_y]
           rotate: 90                
