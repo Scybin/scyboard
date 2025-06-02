@@ -5,6 +5,7 @@ meta:
   author: Scybin
   url: https://github.com/Scybin/scyboard
 units:
+
   # Key Variables
   kx: cx # 18 mm width
   ky: cy # 17 mm height
@@ -20,35 +21,25 @@ units:
   horizontal_diode_shift: -0.5 kcow - 0.85
   diode_rotation: -180 # Diode rotation
   switch_rotation: 180 # Hotswap south, led north
-  # Physical Measures
-  screw_radius: 1.1 # M2 screws
-  screw_diameter: screw_radius * 2
-  screw_head_radius: 2.05
-  screw_head_diameter: screw_head_radius * 2
-  spacer_radius: 2.15 # M2 standoffs
-  spacer_diameter: spacer_radius * 2
-  fillet_radius: 0.5
-  pwr_trace_width: 0.25
-  gnd_trace_width: 0.25
-  signal_trace_width: 0.15
-  via_size: 0.56 # JLCPCB min 0.56 | KiCad default 0.8
-  via_drill: 0.3 # JLCPCB min 0.3 | KiCad default 0.4
+
   # Controller Variables
   mcu_height: 33
   mcu_width: 18
   mcu_padding: 1.5
+
   # JST Variables
   jst_x: 18.45
   jst_y: -34.01
   jst_shift: 3.5
+
   # Reset Switch Variables
   rst_x: 27.884
   rst_y: -28.5
+
   # On Off Switch Variables
   pwr_x: 28.25
   pwr_y: rst_y-9.35
-footprint:
-  - ./footprints
+
 points:
   zones:
     matrix:
