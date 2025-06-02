@@ -208,7 +208,30 @@ pcbs:
           side: B
         adjust:
           shift: [horizontal_diode_shift,vertical_diode_shift]
-          rotate: 90 + diode_rotation       
+          rotate: 90 + diode_rotation
+      key_switches_f:
+        what: ceoloide/switch_choc_v1_v2
+        where: true
+        params:
+          hotswap: true
+          reversible: false
+          from: "{{column_net}}"
+          to: "{{colrow}}_F"
+          side: F
+        adjust:
+          rotate: switch_rotation
+      diodes_f:
+        what: ceoloide/diode_tht_sod123
+        where: true
+        params:
+          from: "{{colrow}}_F"
+          to: "{{row_net}}"
+          include_tht: false
+          reversible: false
+          side: F
+        adjust:
+          shift: [-1 * horizontal_diode_shift,vertical_diode_shift]
+          rotate: 90 + diode_rotation         
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
@@ -230,7 +253,7 @@ pcbs:
           P6: R1
           P7: R2
           P8: R3
-          reversible: false
+          reversible: true
           include_traces: true
           show_silk_labels: true
           show_via_labels: true
@@ -242,7 +265,7 @@ pcbs:
         params:
           from: BAT_P
           to: RAW
-          reversible: false
+          reversible: true
         adjust:
           shift: [1.5 ks -0.5+1, pwr_y]
       reset_switch:
@@ -251,7 +274,7 @@ pcbs:
         params:
           from: GND
           to: RST
-          reversible: false
+          reversible: true
           include_bosses: true
         adjust:
           shift: [rst_x, rst_y]    
@@ -261,8 +284,8 @@ pcbs:
         params:
           BAT_P: BAT_P
           BAT_N: GND
-          reversible: false
+          reversible: true
           include_courtyard: false
         adjust:
           shift: [jst_x+jst_shift, jst_y]
-          rotate: 90
+          rotate: 90                
