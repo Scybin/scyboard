@@ -47,6 +47,8 @@ units:
   # On Off Switch Variables
   pwr_x: 28.25
   pwr_y: rst_y-9.35
+footprints:
+  - ./footprints
 points:
   zones:
     matrix:
