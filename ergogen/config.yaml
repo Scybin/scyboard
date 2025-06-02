@@ -176,7 +176,7 @@ outlines:
           shift: [0.5px,-0.6py]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
-    combo:
+    _combo:
     - what: outline
       name: pcb
     - operation: subtract
