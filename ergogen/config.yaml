@@ -47,7 +47,7 @@ units:
   # On Off Switch Variables
   pwr_x: 28.25
   pwr_y: rst_y-9.35
-footprints:
+footprint:
   - ./footprints
 points:
   zones:
@@ -189,7 +189,7 @@ pcbs:
         outline: pcb
     footprints:
       key_switches_b:
-        what: switch_choc_v1_v2
+        what: ceoloide/switch_choc_v1_v2
         where: true
         params:
           hotswap: true
