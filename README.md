@@ -1,6 +1,12 @@
 # scyboard
 
-This is an early prototype that is in the design stage and has not been tested. This design is inspired by the Ferris Sweep, with an additional column and thumb cluster. 
+This is an early prototype that is in the design stage and has not been tested. This design is inspired by the Ferris Sweep, with an additional column and thumb cluster.
+
+# Details
+
+- 6X4 layout
+- Bluetooth capable
+- Uses ZMK firmware
 
 Parts list:
 
