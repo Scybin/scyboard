@@ -1,5 +1,7 @@
 # scyboard
 
+This is an early prototype that is in the design stage and has not been tested. This design is inspired by the Ferris Sweep, with an additional column and thumb cluster. 
+
 Parts list:
 
 | Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
