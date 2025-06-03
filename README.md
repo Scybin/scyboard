@@ -8,7 +8,7 @@ This is an early prototype that is in the design stage and has not been tested. 
 - Bluetooth capable
 - Uses ZMK firmware
 
-Parts list:
+# Parts List
 
 | Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
 |-------------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
