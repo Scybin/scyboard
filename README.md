@@ -4,6 +4,7 @@
 
 ![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
 
+<br>
 
 ## 📚 Table of Contents
 
@@ -15,6 +16,7 @@
 - [📦 Parts List](#️-parts-list)
 - [📄 License](#️-license)
 
+<br>
 
 ## ⚠️ Disclaimer
 This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
