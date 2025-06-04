@@ -1,6 +1,6 @@
 # scyboard
 
-🧪 Disclaimer
+⚠️ Disclaimer
 This is an early-stage experimental project. Don’t fully trust the auto-generated files—be sure to review them carefully before sending anything to a PCB manufacturer. While the author and a few others have built working prototypes from this repo, there's no guarantee everything will work perfectly.
 
 The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
@@ -9,7 +9,7 @@ The author(s) take no responsibility for any damage, issues, or legal trouble th
 
 Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkerers, and keyboard enthusiasts. It offers a flexible platform for creating a compact, efficient, and fully programmable keyboard using open-source tools.
 
-# 🔧 Features
+# ⚙️ Features
 
 - Compact layout optimized for ergonomics
 - QMK firmware support (wired)
@@ -19,19 +19,22 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
 
-# 📦 Project Status
+# 🔧 Project Status
 Status: Experimental Prototype
 Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
 
-# TODO
+# 🔜 TODO
 
 - Review PCB traces
-- 
+- Update PCB to support screws & headers
+- Design case
+- Design plate
+- Create firmware
 
 # 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Parts List
+# 📦 Parts List
 
 | Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
 |-------------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
