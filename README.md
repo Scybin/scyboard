@@ -2,6 +2,8 @@
 
 This is an early prototype that is in the design stage and has not been tested. This design is inspired by the Ferris Sweep, with an additional column and thumb cluster.
 
+![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
+
 # Details
 
 - 6X4 layout
