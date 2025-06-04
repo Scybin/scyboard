@@ -40,6 +40,7 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 - Bluetooth functionality
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
+- KiCad traces auto-routed using FreeRoute
 
 <br>
 
