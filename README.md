@@ -10,7 +10,7 @@ The author(s) take no responsibility for any damage, issues, or legal trouble th
 
 ## 📚 Table of Contents
 
-- [Welcome](#welcome)
+- [Welcome](#Welcome)
 - [Features](#features)
 - [Project Status](#project-status)
 - [Getting Started](#getting-started)
