@@ -5,13 +5,13 @@
 
 ## 📚 Table of Contents
 
-- [Disclaimer](#disclaimer) 
-- [Welcome](#welcome)
-- [Features](#features)
-- [Project Status](#project-status)
-- [TODO](#todo)
-- [Parts List](#parts-list)
-- [License](#license)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [⌨️ Welcome](#️-welcome)
+- [⚙️ Features](#️-features)
+- [🔧 Project Status](#️-project-status)
+- [🔜 TODO](#️-todo)
+- [📦 Parts List](#️-parts-list)
+- [📄 License](#️-license)
 
 
 ## ⚠️ Disclaimer
