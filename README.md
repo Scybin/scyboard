@@ -8,13 +8,13 @@
 
 ## 📚 Table of Contents
 
-- [⚠️ Disclaimer](#️-disclaimer)
-- [⌨️ Welcome](#️-welcome)
-- [⚙️ Features](#️-features)
-- [🔧 Project Status](#️-project-status)
-- [🔜 TODO](#️-todo)
-- [📦 Parts List](#️-parts-list)
-- [📄 License](#️-license)
+- [⚠️ Disclaimer](#disclaimer)
+- [⌨️ Welcome](#welcome)
+- [⚙️ Features](#features)
+- [🔧 Project Status](#project-status)
+- [🔜 TODO](#todo)
+- [📦 Parts List](#parts-list)
+- [📄 License](#license)
 
 <br>
 
@@ -44,8 +44,7 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 <br>
 
 ## 🔧 Project Status
-Status: Experimental Prototype
-Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
+Experimental Prototype. Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
 
 <br>
 
