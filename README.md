@@ -1,16 +1,35 @@
 # scyboard
 
-This is an early prototype that is in the design stage and has not been tested. This design is inspired by the Ferris Sweep with an additional column and thumb cluster keys.
+🧪 Disclaimer
+This is an early-stage experimental project. Don’t fully trust the auto-generated files—be sure to review them carefully before sending anything to a PCB manufacturer. While the author and a few others have built working prototypes from this repo, there's no guarantee everything will work perfectly.
+
+The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
 
 ![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
 
-# Details
+Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkerers, and keyboard enthusiasts. It offers a flexible platform for creating a compact, efficient, and fully programmable keyboard using open-source tools.
 
-- 6X4 layout
-- Bluetooth capable
-- ZMK firmware
-- Layout declared using Ergogen
-- FreeRouting to automatically trace PCB
+# 🔧 Features
+
+- Compact layout optimized for ergonomics
+- QMK firmware support (wired)
+- ZMK firmware support (wireless)
+- USB-C connectivity
+- Bluetooth functionality
+- Customizable keymaps, layers, and macros
+- Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
+
+# 📦 Project Status
+Status: Experimental Prototype
+Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
+
+# TODO
+
+- Review PCB traces
+- 
+
+# 📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 # Parts List
 
