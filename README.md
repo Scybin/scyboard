@@ -59,7 +59,7 @@ Scyboard is in early development. Not yet tested. There may still be bugs or har
 
 <br>
 
-# 📦 Parts List
+## 📦 Parts List
 
 | Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
 |-------------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Scyboard is in early development. Not yet tested. There may still be bugs or har
 
 <br>
 
-# 📄 License
+## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 <br>
