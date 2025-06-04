@@ -63,7 +63,7 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 | Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
 |-------------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Microcontroller         |    2     | nice!nano v2.0                       | [Nordic nRF52840](https://nicekeyboards.com/nice-nano)                                                               |
-| MCU Socket              |    4     | No-Solder Springs Headers            | [Purchase Link](https://typeractive.xyz/products/no-solder-spring-headers?variant=47196312502503)                    |
+| MCU Socket              |    4     | No-Solder Springs Headers            | [Purchase Link (typeractive)](https://typeractive.xyz/products/no-solder-spring-headers?variant=47196312502503)                    |
 | Reset Button            |    2     | Panasonic miniature momentary button | [EVQPUC02K](https://cdn.shopify.com/s/files/1/0618/5674/3655/files/PANASONIC-EVQPUC02K.pdf)                          |
 | Power Switch            |    2     | Alps miniature SPDT switch           | [SSSS811101](https://cdn.shopify.com/s/files/1/0618/5674/3655/files/ALPS-SSSS811101.pdf)                             |
 | Battery Jack            |    2     | JST PH 2.0mm                         | [JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal](http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)                            |
