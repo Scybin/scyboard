@@ -1,35 +1,31 @@
 # scyboard
 
-# ⚠️ Disclaimer
-This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
-
-The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
-
 ![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
 
 
 ## 📚 Table of Contents
 
-- [Welcome](#Welcome)
+- [Disclaimer](#disclaimer) 
+- [Welcome](#welcome)
 - [Features](#features)
 - [Project Status](#project-status)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Building the Firmware](#building-the-firmware)
-  - [Flashing](#flashing)
-- [Hardware](#hardware)
-- [Disclaimer](#disclaimer)
-- [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
+- [TODO](#todo)
+- [Parts List](#parts-list)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
-# ⌨️ Welcome
+
+## ⚠️ Disclaimer
+This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
+
+The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
+
+
+## ⌨️ Welcome
 
 Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkerers, and keyboard enthusiasts. It offers a flexible platform for creating a compact, efficient, and fully programmable keyboard using open-source tools.
 
 
-# ⚙️ Features
+## ⚙️ Features
 
 - Compact layout optimized for ergonomics
 - QMK firmware support (wired)
@@ -40,12 +36,12 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
 
 
-# 🔧 Project Status
+## 🔧 Project Status
 Status: Experimental Prototype
 Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
 
 
-# 🔜 TODO
+## 🔜 TODO
 
 - Review PCB traces
 - Update PCB to support screws & headers
