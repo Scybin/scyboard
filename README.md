@@ -53,8 +53,8 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 
 - Review PCB traces
 - Update PCB to support screws & headers
-- Design case
-- Design plate
+- 3D Design case (PLA/PETG)
+- 3D Design plate
 - Create firmware
 
 <br>
