@@ -4,7 +4,7 @@
 
 ![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
 
-<br>
+
 
 ## 📚 Table of Contents
 
@@ -41,7 +41,7 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
 
-<br><br>
+<br>
 
 ## 🔧 Project Status
 Status: Experimental Prototype
