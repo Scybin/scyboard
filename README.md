@@ -17,13 +17,15 @@
 ## ⚠️ Disclaimer
 This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
 
-The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.<br><br>
+The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
 
+<br><br>
 
 ## ⌨️ Welcome
 
 Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkerers, and keyboard enthusiasts. It offers a flexible platform for creating a compact, efficient, and fully programmable keyboard using open-source tools.
 
+<br><br>
 
 ## ⚙️ Features
 
@@ -35,11 +37,13 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
 
+<br><br>
 
 ## 🔧 Project Status
 Status: Experimental Prototype
 Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
 
+<br><br>
 
 ## 🔜 TODO
 
@@ -49,6 +53,7 @@ Scyboard is in early development. Not yet tested. There may still be bugs or har
 - Design plate
 - Create firmware
 
+<br><br>
 
 # 📦 Parts List
 
@@ -64,6 +69,7 @@ Scyboard is in early development. Not yet tested. There may still be bugs or har
 | Choc V1/V2 Switches     |    44    | Kailh Choc                           |                                                                                                                      |
 | Choc Keycaps            |    44    | 40 x 1u, 4 x 1.5u                    |                                                                                                                      |
 
+<br><br>
 
 # 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
