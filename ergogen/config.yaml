@@ -223,12 +223,10 @@ pcbs:
           P6: R1
           P7: R2
           P8: R3
-          reversible: true
-          include_traces: true
+          reverse_mount: true
           show_silk_labels: true
           show_via_labels: true
           show_instructions: false
-          use_rectangular_jumpers: true
       on_off_switch:
         what: ceoloide/power_switch_smd_side
         where: matrix_inner_top
