@@ -2354,6 +2354,24 @@
     )
   )
   
+
+  (footprint "ceoloide:mounting_hole_npth"
+    (layer "F.Cu")
+    (at 59 108.5 0)
+    (property "Reference" "MH3"
+      (at 0 2.55 0)
+      (layer "F.SilkS")
+      hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle
+      (at 0 0 0)
+      (size 4.3 4.3)
+      (drill 4.3)
+      (layers "*.Cu" "*.Mask")
+    )
+  )
+  
   (gr_line (start 40 107.50525620763159) (end 40 57.97233278666667) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 41.40586680882485 56.06261921503227) (end 57.88498226859455 50.93578329421503) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 58.109892056829516 50.850670676712085) (end 75.83814517645575 42.89265483190208) (layer Edge.Cuts) (stroke (width 0.15) (type default)))

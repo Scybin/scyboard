@@ -159,7 +159,7 @@ points:
         - helper
         - screw
       anchor:
-        - ref: matrix_outer_bottom
+        - ref: thumb_tuck
           shift: [9, -8.5]
 
 outlines:
