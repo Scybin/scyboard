@@ -4,6 +4,7 @@ meta:
   version: 1.0
   author: Scybin
   url: https://github.com/Scybin/scyboard
+
 units:
 
   # Key Variables
@@ -258,7 +259,7 @@ pcbs:
           shift: [jst_x+jst_shift, jst_y]
           rotate: 90
       logo:
-        what: custom/scyboard_logo
+        what: scyboard_logo
         where: matrix_pinky_bottom
         adjust:
           shift: [23.15, -4.978]
