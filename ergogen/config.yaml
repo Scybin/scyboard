@@ -407,14 +407,14 @@ cases:
       operation: add
   bottom_case:
     - what: case
+      name: _standoffs
+      operation: add
+    - what: case
+      name: _holes
+      operation: subtract
+    - what: case
       name: xlBottom
       operation: add
     - what: case
       name: wall
-      operation: add
-    - what: case
-      name: _holes
-      operation: add
-    - what: case
-      name: _standoffs
       operation: add

@@ -17,18 +17,34 @@ function pcb_extrude_4_outline_fn(){
 
 
 function mounting_extrude_4_outline_fn(){
-    return CAG.circle({"center":[163.65,-108.52],"radius":1.1})
+    return CAG.circle({"center":[163.65,-108.52],"radius":1.5})
 .union(
-    CAG.circle({"center":[131.5,-63.52],"radius":1.1})
+    CAG.circle({"center":[131.5,-63.52],"radius":1.5})
 ).union(
-    CAG.circle({"center":[95.5,-56.32],"radius":1.1})
+    CAG.circle({"center":[95.5,-56.32],"radius":1.5})
 ).union(
-    CAG.circle({"center":[108.5,-92.57],"radius":1.1})
+    CAG.circle({"center":[108.5,-92.57],"radius":1.5})
 ).union(
-    CAG.circle({"center":[59.5,-89.7],"radius":1.1})
+    CAG.circle({"center":[59.5,-89.7],"radius":1.5})
 ).union(
-    CAG.circle({"center":[59.5,-72.7],"radius":1.1})
+    CAG.circle({"center":[59.5,-72.7],"radius":1.5})
 ).extrude({ offset: [0, 0, 4] });
+}
+
+
+function standoff_extrude_1_outline_fn(){
+    return CAG.circle({"center":[163.65,-108.52],"radius":2.5})
+.union(
+    CAG.circle({"center":[131.5,-63.52],"radius":2.5})
+).union(
+    CAG.circle({"center":[95.5,-56.32],"radius":2.5})
+).union(
+    CAG.circle({"center":[108.5,-92.57],"radius":2.5})
+).union(
+    CAG.circle({"center":[59.5,-89.7],"radius":2.5})
+).union(
+    CAG.circle({"center":[59.5,-72.7],"radius":2.5})
+).extrude({ offset: [0, 0, 1] });
 }
 
 
@@ -165,6 +181,29 @@ function mounting_extrude_4_outline_fn(){
             
             
 
+                function _standoffs_case_fn() {
+                    
+
+                // creating part 0 of case _standoffs
+                let _standoffs__part_0 = standoff_extrude_1_outline_fn();
+
+                // make sure that rotations are relative
+                let _standoffs__part_0_bounds = _standoffs__part_0.getBounds();
+                let _standoffs__part_0_x = _standoffs__part_0_bounds[0].x + (_standoffs__part_0_bounds[1].x - _standoffs__part_0_bounds[0].x) / 2
+                let _standoffs__part_0_y = _standoffs__part_0_bounds[0].y + (_standoffs__part_0_bounds[1].y - _standoffs__part_0_bounds[0].y) / 2
+                _standoffs__part_0 = translate([-_standoffs__part_0_x, -_standoffs__part_0_y, 0], _standoffs__part_0);
+                _standoffs__part_0 = rotate([0,0,0], _standoffs__part_0);
+                _standoffs__part_0 = translate([_standoffs__part_0_x, _standoffs__part_0_y, 0], _standoffs__part_0);
+
+                _standoffs__part_0 = translate([0,0,0], _standoffs__part_0);
+                let result = _standoffs__part_0;
+                
+            
+                    return result;
+                }
+            
+            
+
                 function bottom_case_case_fn() {
                     
 
@@ -213,6 +252,22 @@ function mounting_extrude_4_outline_fn(){
 
                 bottom_case__part_2 = translate([0,0,0], bottom_case__part_2);
                 result = result.union(bottom_case__part_2);
+                
+            
+
+                // creating part 3 of case bottom_case
+                let bottom_case__part_3 = _standoffs_case_fn();
+
+                // make sure that rotations are relative
+                let bottom_case__part_3_bounds = bottom_case__part_3.getBounds();
+                let bottom_case__part_3_x = bottom_case__part_3_bounds[0].x + (bottom_case__part_3_bounds[1].x - bottom_case__part_3_bounds[0].x) / 2
+                let bottom_case__part_3_y = bottom_case__part_3_bounds[0].y + (bottom_case__part_3_bounds[1].y - bottom_case__part_3_bounds[0].y) / 2
+                bottom_case__part_3 = translate([-bottom_case__part_3_x, -bottom_case__part_3_y, 0], bottom_case__part_3);
+                bottom_case__part_3 = rotate([0,0,0], bottom_case__part_3);
+                bottom_case__part_3 = translate([bottom_case__part_3_x, bottom_case__part_3_y, 0], bottom_case__part_3);
+
+                bottom_case__part_3 = translate([0,0,0], bottom_case__part_3);
+                result = result.union(bottom_case__part_3);
                 
             
                     return result;
