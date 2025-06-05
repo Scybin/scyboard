@@ -266,9 +266,7 @@ outlines:
         - ref: matrix_inner_top
           shift: [0.5case_x+mcu_padding+mcu_width+0.25, 0.5case_y]
         - ref: matrix_inner_top
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]
-        - ref: matrix_inner_bottom
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]      
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]     
         - ref: thumb_reach
           shift: [-0.8kx, -0.45case_y]
         - ref: thumb_reach
