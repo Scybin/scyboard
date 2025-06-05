@@ -182,7 +182,9 @@ points:
       anchor:
         - ref: matrix_inner_bottom
           shift: [23.65, -19.5]
-
+  #mirror: &mirror
+  #  ref: matrix_inner_top
+  #  distance: 5kx
 outlines:
     keycap_outline:
     - what: rectangle

@@ -1,4 +1,4 @@
-26805884120782447
+26812881307163154
 Alps_Alpine_Switch_Slide
 SW4_SSSS811101_ALPS
 
@@ -6789,6 +6789,13 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector
+custom_mcu_nice_nano_flipped
+
+
+0
+24
+24
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector MR30 Horizontal PCB Female, https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf
@@ -107415,6 +107422,13 @@ custom_mounting_hole_npth_loose
 0
 0
 custom
+custom_mounting_hole_npth_tight
+
+
+0
+0
+0
+custom
 custom_power_switch_smd_side
 
 
@@ -107430,6 +107444,20 @@ custom_reset_switch_smd_side
 4
 custom
 custom_switch_choc_v1
+
+
+0
+2
+2
+custom
+custom_switch_choc_v1_1.5u
+
+
+0
+2
+2
+custom
+custom_switch_choc_v1_1.25u
 
 
 0
