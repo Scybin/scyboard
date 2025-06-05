@@ -246,6 +246,7 @@ pcbs:
         where: /key/
         params:
           choc_v2_support: false
+          include_keycap: true
           from: "{{column_net}}"
           to: "{{colrow}}_B"
         adjust:
