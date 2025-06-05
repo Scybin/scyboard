@@ -404,7 +404,7 @@ cases:
       extrude: 4
   _standoffs:
     - name: standoff
-      operation: add
+      extrude: 4
   bottom_case:
     - what: case
       name: xlBottom
