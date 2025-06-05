@@ -1,4 +1,4 @@
-26797138412919415
+26805884120782447
 Alps_Alpine_Switch_Slide
 SW4_SSSS811101_ALPS
 
@@ -107380,6 +107380,13 @@ custom_battery_connector_jst_ph_2
 2
 2
 custom
+custom_case
+
+
+0
+0
+0
+custom
 custom_diode_tht_sod123
 
 
@@ -107394,6 +107401,20 @@ custom_mcu_nice_nano_flipped
 144
 48
 custom
+custom_mounting_hole_npth
+
+
+0
+0
+0
+custom
+custom_mounting_hole_npth_loose
+
+
+0
+0
+0
+custom
 custom_power_switch_smd_side
 
 
@@ -107407,6 +107428,13 @@ custom_reset_switch_smd_side
 0
 4
 4
+custom
+custom_switch_choc_v1
+
+
+0
+2
+2
 custom
 custom_switch_choc_v1_v2
 
@@ -107449,3 +107477,10 @@ scyboard_logo
 0
 0
 0
+custom
+switch_choc_v1_v2
+
+
+0
+2
+2

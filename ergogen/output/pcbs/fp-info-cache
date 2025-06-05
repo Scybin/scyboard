@@ -1,4 +1,4 @@
-26802385833044111
+26805884122245874
 Alps_Alpine_Switch_Slide
 SW4_SSSS811101_ALPS
 
@@ -107380,6 +107380,13 @@ custom_battery_connector_jst_ph_2
 2
 2
 custom
+custom_case
+
+
+0
+0
+0
+custom
 custom_diode_tht_sod123
 
 
@@ -107470,3 +107477,10 @@ scyboard_logo
 0
 0
 0
+custom
+switch_choc_v1_v2
+
+
+0
+2
+2
