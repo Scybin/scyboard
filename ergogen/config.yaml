@@ -41,6 +41,20 @@ units:
   pwr_x: 28.25
   pwr_y: rst_y-9.35
 
+  # Physical measures
+  screw_radius: 1.1 # M2 screws
+  screw_diameter: screw_radius * 2
+  screw_head_radius: 2.05
+  screw_head_diameter: screw_head_radius * 2
+  spacer_radius: 2.15 # M2 standoffs
+  spacer_diameter: spacer_radius * 2
+  fillet_radius: 0.5
+  pwr_trace_width: 0.25
+  gnd_trace_width: 0.25
+  signal_trace_width: 0.15
+  via_size: 0.56 # JLCPCB min 0.56 | KiCad default 0.8
+  via_drill: 0.3 # JLCPCB min 0.3 | KiCad default 0.4
+
 points:
   zones:
     matrix:
@@ -261,3 +275,7 @@ pcbs:
       hole_top_left:
         what: ceoloide/mounting_hole_npth
         where: matrix_outer_top
+        params:
+          hole_size: screw_diameter
+          hole_drill: screw_diameter
+        shift: [9, -8.5]
