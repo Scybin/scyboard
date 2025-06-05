@@ -244,9 +244,10 @@ outlines:
           shift: [0.5px,-0.6py]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
-    case:
+    xlBoard:
     - what: polygon
       operation: stack
+      fillet: 2
       points:
         - ref: matrix_outer_top
           shift: [-0.5case_x, 0.5case_y]
@@ -380,4 +381,7 @@ pcbs:
 cases:
   bottom:
     - name: pcb
+      extrude: 1
+  xlBottom:
+    - name: xlBoard
       extrude: 1
