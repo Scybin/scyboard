@@ -160,7 +160,7 @@ points:
         - screw
       anchor:
         - ref: thumb_tuck
-          shift: [-13.5, 5]
+          shift: [-4.5, 10.75]
 
 outlines:
     keycap_outline:
