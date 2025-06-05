@@ -329,3 +329,7 @@ pcbs:
         params:
           hole_size: spacer_diameter
           hole_drill: spacer_diameter
+cases:
+  bottom:
+    - name: pcb
+      extrude: 1
