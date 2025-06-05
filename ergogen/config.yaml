@@ -389,7 +389,7 @@ cases:
     - name: xlBoard
       extrude: 4
   _innerWall:
-    - name: board
+    - name: pcb
       extrude: 4
   wall:
     - what: case
