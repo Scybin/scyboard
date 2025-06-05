@@ -48,6 +48,8 @@ units:
 
   # Standoff variables
   standoff_size: 2.5 # Threaded screw inserts 3.2mm wide, and 3mm tall
+  spacer_radius: 2.15 # M2 standoffs
+  spacer_diameter: spacer_radius * 2
 
   # Case variables
   case_x: kx+8 # Case position on x-axis
