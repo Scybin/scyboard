@@ -146,7 +146,7 @@ points:
         - screw
       anchor:
         - ref: matrix_pinky_top
-          shift: [-(kx/2)-screw_head_radius, -(ky/2)-screw_head_radius]
+          shift: [-kx, -ky]
     screw_pcb_left_bottom:
       key.tags:
         - helper
@@ -253,6 +253,7 @@ pcbs:
         where: /key/
         params:
           choc_v2_support: false
+          switch_3dmodel_filename: C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
           from: "{{column_net}}"
           to: "{{colrow}}_B"
         adjust:
