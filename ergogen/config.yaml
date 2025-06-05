@@ -41,21 +41,13 @@ units:
   pwr_x: 28.25 # On off switch position on x-axis
   pwr_y: rst_y-9.35 # On off switch position on y-axis
 
-  # Physical measures
-  screw_radius: 1.1 # M2 screws
-  screw_diameter: screw_radius * 2
-  screw_head_radius: 2.05
-  screw_head_diameter: screw_head_radius * 2
-  spacer_radius: 2.15 # M2 standoffs
-  spacer_diameter: spacer_radius * 2
-  fillet_radius: 0.5
-  pwr_trace_width: 0.25
-  gnd_trace_width: 0.25
-  signal_trace_width: 0.15
-  via_size: 0.56 # JLCPCB min 0.56 | KiCad default 0.8
-  via_drill: 0.3 # JLCPCB min 0.3 | KiCad default 0.4
+  # Screw variables
   screw_x: (-kx/2) # Screw position on x-axis
   screw_y: (-ky/2) # Screw position on y-axis
+
+  # Case variables
+  case_x: kx+8 # Case position on x-axis
+  case_y: ky+8 # Case position on y-axis
 
 points:
   zones:
@@ -238,6 +230,48 @@ outlines:
           shift: [0.5px,-0.6py]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
+    case:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.5case_x, 0.5case_y]
+        - ref: matrix_pinky_top
+          shift: [-0.5case_x, 0.7case_y]
+        - ref: matrix_ring_top
+          shift: [-0.5case_x, 0.5case_y]
+        - ref: matrix_middle_top
+          shift: [-0.5case_x, 0.5case_y]
+        - ref: matrix_middle_top
+          shift: [0.5case_x, 0.5case_y]
+        - ref: matrix_index_top
+          shift: [0.5case_x, 0.6case_y]
+        - ref: matrix_inner_top
+          shift: [0.5case_x, 0.5case_y]
+        - ref: matrix_inner_top
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, 0.5case_y]
+        - ref: matrix_inner_top
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]
+        - ref: matrix_inner_bottom
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]      
+        - ref: thumb_reach
+          shift: [-0.8kx, -0.45case_y]
+        - ref: thumb_reach
+          shift: [-0.8kx, 0.5case_y]
+        - ref: thumb_reach
+          shift: [0.8kx, 0.5case_y]        
+        - ref: thumb_space
+          shift: [0.8kx, 0.45case_y]
+        - ref: thumb_space
+          shift: [0.8kx, -0.45case_y]          
+        - ref: thumb_layer
+          shift: [-0.45case_x,-0.5case_y]                    
+        - ref: thumb_tuck
+          shift: [-0.5case_x,-0.5case_y]               
+        - ref: matrix_pinky_bottom
+          shift: [0.5case_x,-0.6case_y]                                      
+        - ref: matrix_outer_bottom
+          shift: [-0.5case_x,-0.5case_y]
     _combo:
     - what: outline
       name: pcb
