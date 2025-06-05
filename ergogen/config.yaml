@@ -403,5 +403,5 @@ cases:
       name: xlBottom
       operation: add
     - what: case
-      name: _wall
+      name: wall
       operation: add
