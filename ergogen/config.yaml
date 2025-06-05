@@ -220,26 +220,21 @@ pcbs:
       main:
         outline: pcb
     footprints:
-      key_switches_b:
+      key_switches:
         what: ceoloide/switch_choc_v1_v2
         where: /key/
         params:
-          hotswap: true
-          reversible: false
+          choc_v2_support: false
           from: "{{column_net}}"
           to: "{{colrow}}_B"
-          side: B
         adjust:
           rotate: switch_rotation
-      diodes_b:
+      diodes:
         what: ceoloide/diode_tht_sod123
         where: /key/
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
-          include_tht: false
-          reversible: false
-          side: B
         adjust:
           shift: [horizontal_diode_shift,vertical_diode_shift]
           rotate: 90 + diode_rotation       
