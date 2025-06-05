@@ -167,7 +167,7 @@ points:
         - screw
       anchor:
         - aggregate:
-            method: mean
+            method: average
             parts:
               - ref: matrix_ring_top
               - ref: matrix_ring_middle
@@ -179,7 +179,7 @@ points:
         - screw
       anchor:
         - aggregate:
-            method: mean
+            method: average
             parts:
               - ref: matrix_index_top
               - ref: matrix_index_middle
