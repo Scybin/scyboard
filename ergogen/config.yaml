@@ -62,6 +62,9 @@ points:
       key:
         padding: ky
         spread: kx
+        tags:
+          - key
+          - matrix_key
       anchor.shift: [50,-100] # Fix KiCad placement
       columns:
         outer:
@@ -101,6 +104,9 @@ points:
         padding: ky
         spread: kx
         stagger: 1
+        tags:
+          - key
+          - thumb_key
       anchor:
         ref: matrix_index_bottom
       columns:
@@ -209,7 +215,7 @@ pcbs:
     footprints:
       key_switches_b:
         what: ceoloide/switch_choc_v1_v2
-        where: true
+        where: /key/
         params:
           hotswap: true
           reversible: false
@@ -220,7 +226,7 @@ pcbs:
           rotate: switch_rotation
       diodes_b:
         what: ceoloide/diode_tht_sod123
-        where: true
+        where: /key/
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
