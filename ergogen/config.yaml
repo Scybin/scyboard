@@ -174,7 +174,7 @@ points:
         - screw
       anchor:
         - ref: matrix_inner_bottom
-          shift: [20.7, -19.5]
+          shift: [23.65, -19.5]
 
 outlines:
     keycap_outline:
