@@ -168,7 +168,7 @@ points:
       anchor:
         - ref: matrix_inner_home
           shift: [-8.5, 7.075]
-    screw_pcb_reach_bottom:
+    screw_pcb_inner_bottom:
       key.tags:
         - helper
         - screw
@@ -246,6 +246,7 @@ pcbs:
         where: /key/
         params:
           choc_v2_support: false
+          include_keycap: true
           from: "{{column_net}}"
           to: "{{colrow}}_B"
         adjust:
