@@ -401,7 +401,7 @@ cases:
     - name: mounting
       extrude: 4
   _standoffs:
-      name: standoff
+    - name: standoff
       operation: add
   bottom_case:
     - what: case
