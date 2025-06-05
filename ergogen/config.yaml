@@ -161,6 +161,18 @@ points:
       anchor:
         - ref: thumb_tuck
           shift: [-4.5, 10.75]
+    screw_pcb_ring_home:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - aggregate:
+            method: mean
+            parts:
+              - ref: matrix_ring_top
+              - ref: matrix_ring_middle
+              - ref: matrix_index_top
+              - ref: matrix_index_middle
     screw_pcb_inner_home:
       key.tags:
         - helper
