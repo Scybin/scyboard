@@ -2,7 +2,7 @@
 
 <br>
 
-![pcb_3d_render](https://github.com/user-attachments/assets/72f961f7-71c3-46f7-ac3f-4760dd06cf01)
+![pcb_3d_render](https://github.com/user-attachments/assets/ead80099-1869-4a17-a49a-fed61fe60862)
 
 
 
