@@ -138,7 +138,7 @@ points:
       key.tags:
         - helper
         - screw
-      achor:
+      anchor:
         - ref: matrix_outer_top
           shift: [9, -8.5]
 
@@ -287,7 +287,7 @@ pcbs:
           rotate: 90
       hole_top_left:
         what: ceoloide/mounting_hole_npth
-        where: /screw_pct/
+        where: /screw_pcb/
         params:
           hole_size: spacer_diameter
           hole_drill: spacer_diameter
