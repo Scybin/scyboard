@@ -171,8 +171,8 @@ points:
             parts:
               - ref: matrix_ring_top
               - ref: matrix_ring_middle
-              - ref: matrix_index_top
-              - ref: matrix_index_middle
+              - ref: matrix_middle_top
+              - ref: matrix_middle_middle
     screw_pcb_inner_home:
       key.tags:
         - helper
