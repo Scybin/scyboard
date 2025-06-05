@@ -290,7 +290,6 @@ outlines:
       name: pcb
     - operation: stack
       name: xlBoard
-    spacer:
 
 pcbs:
   scyboard:
