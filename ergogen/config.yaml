@@ -266,30 +266,32 @@ outlines:
         - ref: matrix_inner_top
           shift: [0.5case_x+mcu_padding+mcu_width+0.25, 0.5case_y]
         - ref: matrix_inner_top
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]     
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]
+        - ref: matrix_inner_bottom
+          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.45case_y]      
         - ref: thumb_reach
-          shift: [-0.8kx, -0.45case_y]
+          shift: [-0.95kx, 0.5case_y]
         - ref: thumb_reach
-          shift: [-0.8kx, 0.5case_y]
+          shift: [-0.5case_x, 0.5case_y]
         - ref: thumb_reach
-          shift: [0.8kx, 0.5case_y]        
+          shift: [0.95kx, 0.5case_y]        
         - ref: thumb_space
-          shift: [0.8kx, 0.45case_y]
+          shift: [0.95kx, 0.45case_y]
         - ref: thumb_space
-          shift: [0.8kx, -0.45case_y]          
+          shift: [0.95kx, -0.45case_y]          
         - ref: thumb_layer
-          shift: [-0.45case_x,-0.5case_y]                    
+          shift: [-0.4case_x,-0.5case_y]                    
         - ref: thumb_tuck
-          shift: [-0.5case_x,-0.5case_y]               
+          shift: [-0.4case_x,-0.5case_y]               
         - ref: matrix_pinky_bottom
-          shift: [0.5case_x,-0.6case_y]                                      
+          shift: [0.3case_x,-0.6case_y]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5case_x,-0.5case_y]
     _combo:
     - what: outline
       name: pcb
-    - operation: subtract
-      name: keycap_outline
+    - operation: stack
+      name: xlBoard
 pcbs:
   scyboard:
     template: kicad8
@@ -383,3 +385,23 @@ cases:
   xlBottom:
     - name: xlBoard
       extrude: 1
+  _outerWall:
+    - name: xlBoard
+      extrude: 4
+  _innerWall:
+    - name: board
+      extrude: 4
+  wall:
+    - what: case
+      name: _outerWall
+      operation: add
+    - what: case
+      name: _innerWall
+      operation: subtract
+  case:
+    - what: case
+      name: xlBottom
+      operation: add
+    - what: case
+      name: _wall
+      operation: add
