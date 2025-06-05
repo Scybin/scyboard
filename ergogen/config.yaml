@@ -167,13 +167,13 @@ points:
         - screw
       anchor:
         - ref: matrix_index_top
-          shift: [9, -8.5]
+          shift: [9, -9.85]
     screw_pcb_reach_bottom:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_reach_bottom
+        - ref: matrix_inner_bottom
           shift: [20.7, -19.5]
 
 outlines:
