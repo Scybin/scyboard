@@ -163,12 +163,12 @@ points:
       anchor:
         - ref: thumb_tuck
           shift: [-4.5, 10.75]
-    screw_pcb_ring_top:
+    screw_pcb_middle_top:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_ring_top
+        - ref: matrix_middle_top
           shift: [screw_x+0.5, screw_y]
     screw_pcb_inner_top:
       key.tags:
