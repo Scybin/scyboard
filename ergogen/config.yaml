@@ -168,13 +168,13 @@ points:
       anchor:
         - ref: matrix_index_top
           shift: [9, -8.5]
-    screw_pcb_thumb_space:
+    screw_pcb_reach_bottom:
       key.tags:
         - helper
         - screw
       anchor:
         - ref: matrix_index_top
-          shift: [8.1, -8.5]
+          shift: [20.7, -19.5]
 
 outlines:
     keycap_outline:
