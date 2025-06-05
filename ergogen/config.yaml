@@ -170,9 +170,9 @@ points:
             method: average
             parts:
               - ref: matrix_ring_top
-              - ref: matrix_ring_middle
+              - ref: matrix_ring_home
               - ref: matrix_middle_top
-              - ref: matrix_middle_middle
+              - ref: matrix_middle_home
     screw_pcb_inner_home:
       key.tags:
         - helper
@@ -182,9 +182,9 @@ points:
             method: average
             parts:
               - ref: matrix_index_top
-              - ref: matrix_index_middle
+              - ref: matrix_index_home
               - ref: matrix_inner_top
-              - ref: matrix_inner_middle
+              - ref: matrix_inner_home
     screw_pcb_inner_bottom:
       key.tags:
         - helper
