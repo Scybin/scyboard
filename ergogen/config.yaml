@@ -65,6 +65,7 @@ units:
 
 points:
   zones:
+
     # Main key matrix
     matrix:
       key:
@@ -287,6 +288,10 @@ outlines:
           shift: [0.3case_x,-0.6case_y]                                      
         - ref: matrix_outer_bottom
           shift: [-0.5case_x,-0.5case_y]
+    mounting: 
+    - what: circle
+      radius: screw_radius
+      where: /screw/
     _combo:
     - what: outline
       name: pcb
@@ -398,10 +403,16 @@ cases:
     - what: case
       name: _innerWall
       operation: subtract
+  _holes:
+    - name: mounting
+      extrude: 4
   bottom_case:
     - what: case
       name: xlBottom
       operation: add
     - what: case
       name: wall
+      operation: add
+    - what: case
+      name: _holes
       operation: add
