@@ -278,4 +278,5 @@ pcbs:
         params:
           hole_size: screw_diameter
           hole_drill: screw_diameter
-        shift: [9, -8.5]
+        adjust:
+          shift: [9, -8.5]
