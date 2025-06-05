@@ -146,7 +146,7 @@ points:
         - screw
       anchor:
         - ref: matrix_pinky_top
-          shift: [-kx-screw_head_diameter, -ky-screw_head_diameter ]
+          shift: [-kx-screw_head_radius, -ky-screw_head_radius ]
     screw_pcb_left_bottom:
       key.tags:
         - helper
