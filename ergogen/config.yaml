@@ -154,6 +154,13 @@ points:
       anchor:
         - ref: matrix_outer_bottom
           shift: [9, 8.5]
+    screw_pcb_left_tuck:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_outer_bottom
+          shift: [9, -8.5]
 
 outlines:
     keycap_outline:
