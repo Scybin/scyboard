@@ -180,7 +180,7 @@ outlines:
     keycap_outline:
     - what: rectangle
       fillet: 2
-      where: keys
+      where: true
       size: [keycw,keych]
     - what: rectangle
       fillet: 2
