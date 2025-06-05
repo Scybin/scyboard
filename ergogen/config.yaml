@@ -24,22 +24,22 @@ units:
   switch_rotation: 180 # Hotswap south, led north
 
   # Controller Variables
-  mcu_height: 33
-  mcu_width: 18
+  mcu_width: 18 # x-axis
+  mcu_height: 33 # y-axis
   mcu_padding: 1.5
 
   # JST Variables
-  jst_x: 20.35
-  jst_y: -34.01
-  jst_shift: 3.5
+  jst_x: 20.35 # JST connector position on x-axis
+  jst_y: -34.01 # JST connector position on y-axis
+  jst_shift: 3.5 # JST footprint center point shift
 
   # Reset Switch Variables
-  rst_x: 27.884
-  rst_y: -28.5
+  rst_x: 27.884 # Reset switch position on x-axis
+  rst_y: -28.5 # Reset switch position on y-axis
 
   # On Off Switch Variables
-  pwr_x: 28.25
-  pwr_y: rst_y-9.35
+  pwr_x: 28.25 # On off switch position on x-axis
+  pwr_y: rst_y-9.35 # On off switch position on y-axis
 
   # Physical measures
   screw_radius: 1.1 # M2 screws
@@ -54,7 +54,7 @@ units:
   signal_trace_width: 0.15
   via_size: 0.56 # JLCPCB min 0.56 | KiCad default 0.8
   via_drill: 0.3 # JLCPCB min 0.3 | KiCad default 0.4
-  screw_x: (-kx/2)+0.5 # Screw position on x-axis
+  screw_x: (-kx/2) # Screw position on x-axis
   screw_y: (-ky/2) # Screw position on y-axis
 
 points:
@@ -142,20 +142,20 @@ points:
           row_net: R3
 
     # Helper points
-    screw_pcb_left_top:
+    screw_pcb_pinky_top:
       key.tags:
         - helper
         - screw
       anchor:
         - ref: matrix_pinky_top
-          shift: [screw_x, screw_y]
-    screw_pcb_left_bottom:
+          shift: [screw_x+0.5, screw_y]
+    screw_pcb_pinky_bottom:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_outer_bottom
-          shift: [9, 8.5]
+        - ref: matrix_pinky_bottom
+          shift: [screw_x+0.5, -screw_y]
     screw_pcb_thumb_tuck:
       key.tags:
         - helper
@@ -163,20 +163,20 @@ points:
       anchor:
         - ref: thumb_tuck
           shift: [-4.5, 10.75]
-    screw_pcb_ring_home:
+    screw_pcb_ring_top:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_ring_home
-          shift: [9.7, 12.75]
-    screw_pcb_inner_home:
+        - ref: matrix_ring_top
+          shift: [screw_x+0.5, screw_y]
+    screw_pcb_inner_top:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_inner_home
-          shift: [-8.65, 8.7]
+        - ref: matrix_inner_top
+          shift: [screw_x+0.5, screw_y]
     screw_pcb_inner_bottom:
       key.tags:
         - helper
