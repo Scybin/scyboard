@@ -276,7 +276,7 @@ pcbs:
         what: ceoloide/mounting_hole_npth
         where: matrix_outer_top
         params:
-          hole_size: screw_diameter
-          hole_drill: screw_diameter
+          hole_size: spacer_diameter
+          hole_drill: spacer_diameter
         adjust:
           shift: [9, -8.5]
