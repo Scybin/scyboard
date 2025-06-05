@@ -161,13 +161,13 @@ points:
       anchor:
         - ref: thumb_tuck
           shift: [-4.5, 10.75]
-    screw_pcb_index_top:
+    screw_pcb_inner_home:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_index_top
-          shift: [9, -9.85]
+        - ref: matrix_inner_home
+          shift: [8.5, -9]
     screw_pcb_reach_bottom:
       key.tags:
         - helper
