@@ -210,19 +210,19 @@ pcbs:
         params:
           P0: DAT
           P1: LED
-          P21: C0
-          P20: C1
-          P19: C2
-          P18: C3
-          P15: C4
-          P14: C5
+          P21: C5
+          P20: C4
+          P19: C3
+          P18: C2
+          P15: C1
+          P14: C0
           P2: SDA
           P3: SCL
           P4: CS
-          P5: R0
-          P6: R1
-          P7: R2
-          P8: R3
+          P5: R3
+          P6: R2
+          P7: R1
+          P8: R0
           reversible: false
           include_traces: true
           show_silk_labels: true
