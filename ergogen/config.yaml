@@ -173,7 +173,7 @@ points:
         - helper
         - screw
       anchor:
-        - ref: matrix_index_top
+        - ref: matrix_reach_bottom
           shift: [20.7, -19.5]
 
 outlines:
