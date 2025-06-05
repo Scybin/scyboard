@@ -28,7 +28,7 @@ units:
   mcu_padding: 1.5
 
   # JST Variables
-  jst_x: 16.55
+  jst_x: 20.35
   jst_y: -34.01
   jst_shift: 3.5
 
