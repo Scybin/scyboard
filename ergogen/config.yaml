@@ -167,7 +167,7 @@ points:
         - screw
       anchor:
         - ref: matrix_ring_home
-          shift: [9, 10.75]
+          shift: [9, 10]
     screw_pcb_inner_home:
       key.tags:
         - helper
