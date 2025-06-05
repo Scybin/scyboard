@@ -217,12 +217,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -282,12 +276,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -349,12 +337,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -414,12 +396,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -481,12 +457,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -546,12 +516,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -613,12 +577,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -678,12 +636,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -745,12 +697,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -810,12 +756,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -877,12 +817,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -942,12 +876,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -1009,12 +937,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -1074,12 +996,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -1141,12 +1057,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -1206,12 +1116,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -1273,12 +1177,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -1338,12 +1236,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -1405,12 +1297,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 375) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -1470,12 +1356,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 360) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -1537,12 +1417,6 @@
     (pad "" np_thru_hole circle (at 5 -3.75 258) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
     
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    
   )
     
 
@@ -1602,12 +1476,6 @@
     
     (pad "" np_thru_hole circle (at 5 -3.75 251) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask"))
     
-    
-    (model C:\Users\xheav\source\repos\scyboard\ergogen\footprints\3d\custom_switch_choc_v1
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     
   )
     
@@ -2453,7 +2321,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 50 81.2 0)
+    (at 59 72.7 0)
     (property "Reference" "MH1"
       (at 0 2.55 0)
       (layer "F.SilkS")

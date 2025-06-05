@@ -54,6 +54,8 @@ units:
   signal_trace_width: 0.15
   via_size: 0.56 # JLCPCB min 0.56 | KiCad default 0.8
   via_drill: 0.3 # JLCPCB min 0.3 | KiCad default 0.4
+  screw_x: (-kx/2)+0.5 # Screw position on x-axis
+  screw_y: (-ky/2) # Screw position on y-axis
 
 points:
   zones:
@@ -146,7 +148,7 @@ points:
         - screw
       anchor:
         - ref: matrix_pinky_top
-          shift: [-kx/2, -ky/2]
+          shift: [screw_x, screw_y]
     screw_pcb_left_bottom:
       key.tags:
         - helper
