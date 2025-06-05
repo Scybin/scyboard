@@ -57,6 +57,7 @@ units:
 
 points:
   zones:
+    # Main key matrix
     matrix:
       key:
         padding: ky
@@ -93,6 +94,8 @@ points:
           row_net: R1
         top:
           row_net: R0
+
+    # Thumb cluster
     thumb:
       key:
         padding: ky
@@ -129,6 +132,16 @@ points:
       rows:
         cluster:
           row_net: R3
+
+    # Helper points
+    screw_pcb_left_top:
+      key.tags:
+        - helper
+        - screw
+      achor:
+        - ref: matrix_outer_top
+          shift: [9, -8.5]
+
 outlines:
     keycap_outline:
     - what: rectangle
@@ -274,9 +287,7 @@ pcbs:
           rotate: 90
       hole_top_left:
         what: ceoloide/mounting_hole_npth
-        where: matrix_outer_top
+        where: /screw_pct/
         params:
           hole_size: spacer_diameter
           hole_drill: spacer_diameter
-        adjust:
-          shift: [9, -8.5]
