@@ -398,7 +398,7 @@ cases:
     - what: case
       name: _innerWall
       operation: subtract
-  case:
+  bottom_case:
     - what: case
       name: xlBottom
       operation: add
