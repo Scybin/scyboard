@@ -16,7 +16,7 @@ function pcb_extrude_4_outline_fn(){
 }
 
 
-function standoff_extrude_1_outline_fn(){
+function standoff_extrude_4_outline_fn(){
     return CAG.circle({"center":[163.65,-108.52],"radius":2.5})
 .union(
     CAG.circle({"center":[131.5,-63.52],"radius":2.5})
@@ -28,7 +28,7 @@ function standoff_extrude_1_outline_fn(){
     CAG.circle({"center":[59.5,-89.7],"radius":2.5})
 ).union(
     CAG.circle({"center":[59.5,-72.7],"radius":2.5})
-).extrude({ offset: [0, 0, 1] });
+).extrude({ offset: [0, 0, 4] });
 }
 
 
@@ -162,7 +162,7 @@ function mounting_extrude_4_outline_fn(){
                     
 
                 // creating part 0 of case _standoffs
-                let _standoffs__part_0 = standoff_extrude_1_outline_fn();
+                let _standoffs__part_0 = standoff_extrude_4_outline_fn();
 
                 // make sure that rotations are relative
                 let _standoffs__part_0_bounds = _standoffs__part_0.getBounds();
