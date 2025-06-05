@@ -166,25 +166,15 @@ points:
         - helper
         - screw
       anchor:
-        - aggregate:
-            method: average
-            parts:
-              - ref: matrix_ring_top
-              - ref: matrix_ring_home
-              - ref: matrix_middle_top
-              - ref: matrix_middle_home
+        - ref: matrix_inner_home
+          shift: [9, 10.75]
     screw_pcb_inner_home:
       key.tags:
         - helper
         - screw
       anchor:
-        - aggregate:
-            method: average
-            parts:
-              - ref: matrix_index_top
-              - ref: matrix_index_home
-              - ref: matrix_inner_top
-              - ref: matrix_inner_home
+        - ref: matrix_inner_home
+          shift: [-9, -9.8]
     screw_pcb_inner_bottom:
       key.tags:
         - helper
