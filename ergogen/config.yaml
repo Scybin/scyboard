@@ -306,9 +306,10 @@ pcbs:
         what: ceoloide/switch_choc_v1_v2
         where: /key/
         params:
-          choc_v2_support: false
           from: "{{column_net}}"
           to: "{{colrow}}_B"
+          reversible: true
+          choc_v2_support: false
         adjust:
           rotate: switch_rotation
       diodes:
@@ -317,6 +318,7 @@ pcbs:
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
+          reversible: true
         adjust:
           shift: [horizontal_diode_shift,vertical_diode_shift]
           rotate: 90 + diode_rotation       
@@ -341,6 +343,7 @@ pcbs:
           P6: R1
           P7: R2
           P8: R3
+          reversible: true
           reverse_mount: true
           show_silk_labels: true
           show_via_labels: true
@@ -351,7 +354,7 @@ pcbs:
         params:
           from: BAT_P
           to: RAW
-          reversible: false
+          reversible: true
         adjust:
           shift: [1.5 ks -0.5+1, pwr_y]
       reset_switch:
@@ -360,7 +363,7 @@ pcbs:
         params:
           from: GND
           to: RST
-          reversible: false
+          reversible: true
           include_bosses: true
         adjust:
           shift: [rst_x, rst_y]    
@@ -370,7 +373,7 @@ pcbs:
         params:
           BAT_P: BAT_P
           BAT_N: GND
-          reversible: false
+          reversible: true
           include_courtyard: false
         adjust:
           shift: [jst_x+jst_shift, jst_y]
