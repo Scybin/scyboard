@@ -7812,7 +7812,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 90.5 57.81999999999999 0)
+    (at 90.5 63.519999999999996 0)
     (property "Reference" "MH4"
       (at 0 2.55 0)
       (layer "F.SilkS")

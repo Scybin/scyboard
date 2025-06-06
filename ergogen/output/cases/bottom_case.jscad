@@ -21,7 +21,7 @@ function standoff_extrude_4_outline_fn(){
 .union(
     CAG.circle({"center":[131.5,-63.52],"radius":2.5})
 ).union(
-    CAG.circle({"center":[90.5,-57.82],"radius":2.5})
+    CAG.circle({"center":[90.5,-63.52],"radius":2.5})
 ).union(
     CAG.circle({"center":[108.5,-92.57],"radius":2.5})
 ).union(
@@ -37,7 +37,7 @@ function mounting_extrude_4_outline_fn(){
 .union(
     CAG.circle({"center":[131.5,-63.52],"radius":1.5})
 ).union(
-    CAG.circle({"center":[90.5,-57.82],"radius":1.5})
+    CAG.circle({"center":[90.5,-63.52],"radius":1.5})
 ).union(
     CAG.circle({"center":[108.5,-92.57],"radius":1.5})
 ).union(
