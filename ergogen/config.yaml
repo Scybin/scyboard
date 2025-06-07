@@ -217,11 +217,11 @@ outlines:
         - ref: matrix_inner_top
           shift: [0.55px, 0.5py]
         - ref: matrix_inner_top
-          shift: [0.5px+mcu_padding+mcu_width+0.25, 0.5py]
+          shift: [0.5px+mcu_padding+mcu_width+0.35, 0.5py]
         - ref: matrix_inner_top
-          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]
+          shift: [0.5px+mcu_padding+mcu_width+0.35, -0.5py]
         - ref: matrix_inner_bottom
-          shift: [0.5px+mcu_padding+mcu_width+0.25, -0.5py]      
+          shift: [0.5px+mcu_padding+mcu_width+0.35, -0.5py]      
         - ref: thumb_reach
           shift: [-0.9kx, -0.45py]
         - ref: thumb_reach
@@ -246,43 +246,43 @@ outlines:
       fillet: 2
       points:
         - ref: matrix_outer_top
-          shift: [-0.5case_x, 0.5case_y]
+          shift: [-0.6case_x, 0.5case_y]
         - ref: matrix_pinky_top
           shift: [-0.5case_x, 0.7case_y]
         - ref: matrix_ring_top
-          shift: [-0.5case_x, 0.5case_y]
+          shift: [-0.5case_x, 0.6case_y]
         - ref: matrix_middle_top
-          shift: [-0.5case_x, 0.5case_y]
+          shift: [-0.5case_x, 0.6case_y]
         - ref: matrix_middle_top
-          shift: [0.5case_x, 0.5case_y]
+          shift: [0.5case_x, 0.6case_y]
         - ref: matrix_index_top
           shift: [0.5case_x, 0.6case_y]
         - ref: matrix_inner_top
-          shift: [0.5case_x, 0.5case_y]
+          shift: [0.55case_x, 0.5case_y]
         - ref: matrix_inner_top
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, 0.5case_y]
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, 0.5case_y]
         - ref: matrix_inner_top
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.5case_y]
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.5case_y]
         - ref: matrix_inner_bottom
-          shift: [0.5case_x+mcu_padding+mcu_width+0.25, -0.45case_y]      
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.35case_y]      
         - ref: thumb_reach
-          shift: [-0.95kx, 0.5case_y]
+          shift: [-0.8case_x, 0.6case_y]
         - ref: thumb_reach
-          shift: [-0.5case_x, 0.5case_y]
+          shift: [-0.6case_x, 0.6case_y]
         - ref: thumb_reach
-          shift: [0.95kx, 0.5case_y]        
+          shift: [0.8case_x, 0.6case_y]        
         - ref: thumb_space
-          shift: [0.95kx, 0.45case_y]
+          shift: [0.8case_x, 0.45case_y]
         - ref: thumb_space
-          shift: [0.95kx, -0.45case_y]          
+          shift: [0.8case_x, -0.45case_y]          
         - ref: thumb_layer
-          shift: [-0.4case_x,-0.5case_y]                    
+          shift: [-0.4case_x,-0.6case_y]                    
         - ref: thumb_tuck
-          shift: [-0.4case_x,-0.5case_y]               
+          shift: [-0.4case_x,-0.6case_y]               
         - ref: matrix_pinky_bottom
-          shift: [0.3case_x,-0.6case_y]                                      
+          shift: [0.4case_x,-0.7case_y]                                      
         - ref: matrix_outer_bottom
-          shift: [-0.5case_x,-0.5case_y]
+          shift: [-0.6case_x,-0.6case_y]
     mounting: 
     - what: circle
       radius: screw_size
