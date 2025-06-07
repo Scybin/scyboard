@@ -358,7 +358,6 @@ pcbs:
           P7: R2
           P8: R3
           reversible: true
-          reverse_mount: true
           show_silk_labels: true
           show_via_labels: true
           show_instructions: false
