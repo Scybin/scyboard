@@ -360,7 +360,7 @@ pcbs:
           reversible: true
           show_silk_labels: true
           show_via_labels: true
-          show_instructions: false
+          show_instructions: true
       on_off_switch:
         what: ceoloide/power_switch_smd_side
         where: matrix_inner_top
