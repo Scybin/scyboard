@@ -320,7 +320,7 @@ pcbs:
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
-          reversible: true
+          reversible: false
           side: B
         adjust:
           shift: [horizontal_diode_shift, vertical_diode_shift]
@@ -331,7 +331,7 @@ pcbs:
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
-          reversible: true
+          reversible: false
           side: F
         adjust:
           shift: [-1 * horizontal_diode_shift, vertical_diode_shift]
