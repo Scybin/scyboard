@@ -17,13 +17,13 @@ function pcb_extrude_4_outline_fn(){
 
 
 function standoff_extrude_4_outline_fn(){
-    return CAG.circle({"center":[163.65,-108.52],"radius":2.5})
+    return CAG.circle({"center":[108.5,-92.57],"radius":2.5})
 .union(
+    CAG.circle({"center":[163.65,-108.52],"radius":2.5})
+).union(
     CAG.circle({"center":[131.5,-63.52],"radius":2.5})
 ).union(
-    CAG.circle({"center":[95.5,-56.32],"radius":2.5})
-).union(
-    CAG.circle({"center":[108.5,-92.57],"radius":2.5})
+    CAG.circle({"center":[77.5,-61.32],"radius":2.5})
 ).union(
     CAG.circle({"center":[59.5,-90.2],"radius":2.5})
 ).union(
@@ -33,13 +33,13 @@ function standoff_extrude_4_outline_fn(){
 
 
 function mounting_extrude_4_outline_fn(){
-    return CAG.circle({"center":[163.65,-108.52],"radius":1.5})
+    return CAG.circle({"center":[108.5,-92.57],"radius":1.5})
 .union(
+    CAG.circle({"center":[163.65,-108.52],"radius":1.5})
+).union(
     CAG.circle({"center":[131.5,-63.52],"radius":1.5})
 ).union(
-    CAG.circle({"center":[95.5,-56.32],"radius":1.5})
-).union(
-    CAG.circle({"center":[108.5,-92.57],"radius":1.5})
+    CAG.circle({"center":[77.5,-61.32],"radius":1.5})
 ).union(
     CAG.circle({"center":[59.5,-90.2],"radius":1.5})
 ).union(

@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "scyboard")
-    (date "2025-06-06")
+    (date "2025-06-07")
     (rev "1")
     (company "Scybin")
   )
@@ -7794,7 +7794,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 108.5 92.57 0)
+    (at 77.5 61.31999999999999 0)
     (property "Reference" "MH3"
       (at 0 2.55 0)
       (layer "F.SilkS")
@@ -7812,7 +7812,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 95.5 56.31999999999999 0)
+    (at 131.5 63.519999999999996 0)
     (property "Reference" "MH4"
       (at 0 2.55 0)
       (layer "F.SilkS")
@@ -7830,7 +7830,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 131.5 63.519999999999996 0)
+    (at 163.65 108.52 0)
     (property "Reference" "MH5"
       (at 0 2.55 0)
       (layer "F.SilkS")
@@ -7848,7 +7848,7 @@
 
   (footprint "ceoloide:mounting_hole_npth"
     (layer "F.Cu")
-    (at 163.65 108.52 0)
+    (at 108.5 92.57 0)
     (property "Reference" "MH6"
       (at 0 2.55 0)
       (layer "F.SilkS")
