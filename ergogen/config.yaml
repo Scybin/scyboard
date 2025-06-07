@@ -30,11 +30,6 @@ units:
   mcu_height: 33 # y-axis
   mcu_padding: 1.5
 
-  # JST Variables
-  jst_x: 16.14 # JST connector position on x-axis
-  jst_y: -34.01 # JST connector position on y-axis
-  jst_shift: 3.5 # JST footprint center point shift
-
   # Reset Switch Variables
   rst_x: 27.884 # Reset switch position on x-axis
   rst_y: -28.5 # Reset switch position on y-axis
@@ -42,6 +37,11 @@ units:
   # On Off Switch Variables
   pwr_x: 28.055 # On off switch position on x-axis
   pwr_y: rst_y-9.35 # On off switch position on y-axis
+
+  # JST Variables
+  jst_x: pwr_x-4.21 # JST connector position on x-axis
+  jst_y: -34.01 # JST connector position on y-axis
+  jst_shift: 3.5 # JST footprint center point shift
 
   # Screw variables
   screw_size: 1.5 # M2 flathead screw
@@ -390,7 +390,7 @@ pcbs:
           reversible: true
           include_courtyard: false
         adjust:
-          shift: [jst_x+jst_shift, jst_y]
+          shift: [jst_x, jst_y]
           rotate: 90
       screw_holes:
         what: ceoloide/mounting_hole_npth
