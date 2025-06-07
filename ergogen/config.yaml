@@ -146,14 +146,14 @@ points:
         - screw
       anchor:
         - ref: matrix_pinky_top
-          shift: [screw_x, screw_y-1.5]
+          shift: [screw_x, screw_y-2]
     screw_pcb_pinky_bottom:
       key.tags:
         - helper
         - screw
       anchor:
         - ref: matrix_pinky_bottom
-          shift: [screw_x, -screw_y-1.5]
+          shift: [screw_x, -screw_y-2]
     screw_pcb_ring_top:
       key.tags:
         - helper
