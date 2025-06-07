@@ -1,4 +1,4 @@
-26812881307163154
+26819878337796795
 Alps_Alpine_Switch_Slide
 SW4_SSSS811101_ALPS
 
@@ -107380,6 +107380,13 @@ Varistor VF
 2
 2
 custom
+battery_connector_jst_ph_2
+
+
+0
+10
+8
+custom
 custom_battery_connector_jst_ph_2
 
 
@@ -107442,6 +107449,27 @@ custom_reset_switch_smd_side
 0
 4
 4
+custom
+custom_reversible_power_switch_smd_side
+
+
+0
+14
+3
+custom
+custom_reversible_reset_switch_smd_side
+
+
+0
+8
+4
+custom
+custom_reversible_switch_choc_v1_v2
+
+
+0
+4
+2
 custom
 custom_switch_choc_v1
 
