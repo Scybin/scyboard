@@ -7710,7 +7710,7 @@
 
   (footprint "ceoloide:power_switch_smd_side"
     (layer "F.Cu")
-    (at 168.25 92.87 0)
+    (at 167.335 92.87 0)
     (property "Reference" "PWR1"
       (at -3.6 0 -90)
       (layer "F.SilkS")
