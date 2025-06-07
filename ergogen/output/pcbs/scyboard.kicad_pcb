@@ -7841,7 +7841,7 @@
 
     (footprint "ceoloide:battery_connector_jst_ph_2"
         (layer "F.Cu")
-        (at 163.845 89.03 90)
+        (at 163.555 89.03 90)
         (property "Reference" "JST1"
             (at 0 4.8 90)
             (layer "F.SilkS")
@@ -8036,10 +8036,10 @@
         
     )
          
-    (segment (start 165.645 90.03) (end 163.845 90.03) (width 0.25) (layer "F.Cu") (net 75))
-    (segment (start 165.645 90.03) (end 163.845 90.03) (width 0.25) (layer "B.Cu") (net 75))
-    (segment (start 165.645 88.03) (end 163.845 88.03) (width 0.25) (layer "F.Cu") (net 76))
-    (segment (start 165.645 88.03) (end 163.845 88.03) (width 0.25) (layer "B.Cu") (net 76))
+    (segment (start 165.35500000000002 90.03) (end 163.555 90.03) (width 0.25) (layer "F.Cu") (net 75))
+    (segment (start 165.35500000000002 90.03) (end 163.555 90.03) (width 0.25) (layer "B.Cu") (net 75))
+    (segment (start 165.35500000000002 88.03) (end 163.555 88.03) (width 0.25) (layer "F.Cu") (net 76))
+    (segment (start 165.35500000000002 88.03) (end 163.555 88.03) (width 0.25) (layer "B.Cu") (net 76))
         
 
   (footprint "ceoloide:mounting_hole_npth"
