@@ -31,7 +31,7 @@ units:
   mcu_padding: 1.5
 
   # JST Variables
-  jst_x: 20.35 # JST connector position on x-axis
+  jst_x: pwr_x-4.21 # JST connector position on x-axis
   jst_y: -34.01 # JST connector position on y-axis
   jst_shift: 3.5 # JST footprint center point shift
 
@@ -40,7 +40,7 @@ units:
   rst_y: -28.5 # Reset switch position on y-axis
 
   # On Off Switch Variables
-  pwr_x: 28 # On off switch position on x-axis
+  pwr_x: 28.055 # On off switch position on x-axis
   pwr_y: rst_y-9.35 # On off switch position on y-axis
 
   # Screw variables
@@ -390,7 +390,7 @@ pcbs:
           reversible: true
           include_courtyard: false
         adjust:
-          shift: [jst_x+jst_shift, jst_y]
+          shift: [jst_x, jst_y]
           rotate: 90
       screw_holes:
         what: ceoloide/mounting_hole_npth
