@@ -35,7 +35,7 @@ units:
   rst_y: -28.5 # Reset switch position on y-axis
 
   # On Off Switch Variables
-  pwr_x: 28.385 # On off switch position on x-axis
+  pwr_x: 27.725 # On off switch position on x-axis
   pwr_y: rst_y-9.35 # On off switch position on y-axis
 
   # JST Variables
