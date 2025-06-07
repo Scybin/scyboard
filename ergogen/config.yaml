@@ -162,7 +162,7 @@ points:
         - screw
       anchor:
         - ref: matrix_ring_top
-          shift: [screw_x-1.5, 0]
+          shift: [screw_x-2, 0]
     screw_pcb_inner_top:
       key.tags:
         - helper
