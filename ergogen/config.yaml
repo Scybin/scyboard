@@ -18,10 +18,12 @@ units:
   kcoh: 13.8 # key cutout hole height
   keycw: 17.5 # keycap width (cherry: 18, choc: 17.5)
   keych: 16.5 # keycap height (cherry: 18, choc: 16.5)  
+  switch_rotation: 180 # Hotswap south, led north
+
+  # Diode Variables
   vertical_diode_shift: 1.5 # How much to shift to avoid overlap
   horizontal_diode_shift: -0.5 kcow - 0.85
   diode_rotation: -180 # Diode rotation
-  switch_rotation: 180 # Hotswap south, led north
 
   # Controller Variables
   mcu_width: 18 # x-axis
@@ -312,16 +314,28 @@ pcbs:
           choc_v2_support: false
         adjust:
           rotate: switch_rotation
-      diodes:
+      diodes_b:
         what: ceoloide/diode_tht_sod123
         where: /key/
         params:
           from: "{{colrow}}_B"
           to: "{{row_net}}"
           reversible: true
+          side: B
         adjust:
-          shift: [horizontal_diode_shift,vertical_diode_shift]
+          shift: [horizontal_diode_shift, vertical_diode_shift]
           rotate: 90 + diode_rotation       
+      diodes_f:
+        what: ceoloide/diode_tht_sod123
+        where: /key/
+        params:
+          from: "{{colrow}}_B"
+          to: "{{row_net}}"
+          reversible: true
+          side: F
+        adjust:
+          shift: [-1 * horizontal_diode_shift, vertical_diode_shift]
+          rotate: 90 + diode_rotation    
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
