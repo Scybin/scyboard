@@ -140,27 +140,27 @@ points:
           row_net: R3
 
     # Helper points
-    screw_pcb_pinky_top:
+    screw_pcb_outer_top:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_pinky_top
-          shift: [screw_x, screw_y-2]
-    screw_pcb_pinky_bottom:
+        - ref: matrix_outer_top
+          shift: [screw_x+0.5, screw_y]
+    screw_pcb_outer_bottom:
       key.tags:
         - helper
         - screw
       anchor:
-        - ref: matrix_pinky_bottom
-          shift: [screw_x, -screw_y-2]
+        - ref: matrix_outer_bottom
+          shift: [screw_x+0.5, -screw_y]
     screw_pcb_ring_top:
       key.tags:
         - helper
         - screw
       anchor:
         - ref: matrix_ring_top
-          shift: [screw_x+0.5, screw_y-0.5]
+          shift: [screw_x+0.5, screw_y]
     screw_pcb_inner_top:
       key.tags:
         - helper
