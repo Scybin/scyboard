@@ -370,7 +370,7 @@ pcbs:
           to: RAW
           reversible: true
         adjust:
-          shift: [1.5 ks -0.5+1, pwr_y]
+          shift: [pwr_x, pwr_y]
       reset_switch:
         what: ceoloide/reset_switch_smd_side
         where: matrix_inner_top
