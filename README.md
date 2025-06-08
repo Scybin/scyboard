@@ -30,7 +30,7 @@ The author(s) take no responsibility for any damage, issues, or legal trouble th
 
 ## ⌨️ Welcome
 
-Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkerers, and keyboard enthusiasts. It offers a flexible platform for creating a compact, efficient, and fully programmable keyboard using open-source tools.
+Scyboard is a custom mechanical keyboard project designed for ergonomic mechanical keyboard enthusiasts. This keyboard is a twist based on the Sweep keyboard. Development and design were completed using open-source tools.
 
 <br>
 
@@ -47,7 +47,7 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 <br>
 
 ## 🔧 Project Status
-Experimental Prototype. Scyboard is in early development. Not yet tested. There may still be bugs or hardware quirks.
+Not yet tested!! Scyboard is still in early development, this is an experimental prototype. There may still be bugs or hardware issues.
 
 <br>
 
@@ -56,6 +56,7 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 - Review PCB changes and update parts list for: (screws, headers, etc.)
 - Create ZMK firmware
 - Review & update README to ensure correctness
+- Create build guide once prototyping is complete
 
 <br>
 
@@ -80,7 +81,8 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 - **[Ergogen](https://docs.ergogen.xyz/):** For ergonomic keyboard PCB generation and configuration.
 - **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints and templates for switches, diodes, MCU, and other components.
 - **[ZMK Firmware](https://zmk.dev/):** For providing the open-source wireless keyboard firmware that powers the Bluetooth functionality of this project.
-- KiCad: For PCB design and schematic capture.
+- **[KiCad](https://www.kicad.org/):** For PCB editing.
+- **[Freeroute](https://www.freerouting.app/):** Advanced PCB auto-routing in KiCad.
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
 - **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
