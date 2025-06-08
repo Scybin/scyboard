@@ -31,7 +31,7 @@ The author(s) take no responsibility for any damage, issues, or legal trouble th
 
 ## ⌨️ Welcome
 
-Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep keyboard, Scyboard builds on proven column-staggered layouts and compact design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
+Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep & Corne keyboards, scyboard builds on these layouts and design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
 
 <br>
 
@@ -86,7 +86,8 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - **[KiCad](https://www.kicad.org/):** For PCB editing.
 - **[Freeroute](https://www.freerouting.app/):** Advanced PCB auto-routing in KiCad.
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
-- **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration
+- **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration.
+- **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 ## 📄 License
