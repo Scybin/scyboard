@@ -30,7 +30,7 @@ The author(s) take no responsibility for any damage, issues, or legal trouble th
 
 ## ⌨️ Welcome
 
-Scyboard is a custom mechanical keyboard project designed for ergonomic mechanical keyboard enthusiasts. This keyboard is a twist based on the Sweep keyboard. Development and design were completed using open-source tools.
+Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep keyboard, Scyboard builds on proven column-staggered layouts and compact design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
 
 <br>
 
@@ -39,7 +39,7 @@ Scyboard is a custom mechanical keyboard project designed for ergonomic mechanic
 - Compact layout optimized for ergonomics
 - ZMK firmware support
 - USB-C for connectivity & battery charging
-- Bluetooth functionality
+- Bluetooth compatible
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
 - KiCad traces auto-routed using FreeRoute
