@@ -55,6 +55,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 
 ## 🔜 TODO
 
+- Build & test prototype
 - Review PCB changes and update parts list for: (screws, headers, etc.)
 - Create ZMK firmware
 - Review & update README to ensure correctness
