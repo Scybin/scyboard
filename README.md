@@ -90,6 +90,8 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
+<br>
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
