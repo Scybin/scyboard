@@ -16,6 +16,7 @@
 - [🔧 Project Status](#-project-status)
 - [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
+- [🙏 Credits](#-credits)
 - [📄 License](#-license)
 
 <br>
@@ -36,9 +37,8 @@ Scyboard is a custom mechanical keyboard project designed for hobbyists, tinkere
 ## ⚙️ Features
 
 - Compact layout optimized for ergonomics
-- QMK firmware support (wired)
-- ZMK firmware support (wireless)
-- USB-C connectivity
+- ZMK firmware support
+- USB-C for connectivity & battery charging
 - Bluetooth functionality
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
@@ -53,11 +53,9 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 
 ## 🔜 TODO
 
-- Review PCB traces
-- Update PCB to support screws & headers
-- 3D Design case (PLA/PETG)
-- 3D Design plate
-- Create firmware
+- Review PCB changes and update parts list for: (screws, headers, etc.)
+- Create ZMK firmware
+- Review & update README to ensure correctness
 
 <br>
 
@@ -76,6 +74,15 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 | Choc Keycaps            |    44    | 40 x 1u, 4 x 1.5u                    |                                                                                                                      |
 
 <br>
+
+## 🙏 Credits
+
+- **[Ergogen](https://docs.ergogen.xyz/):** For ergonomic keyboard PCB generation and configuration.
+- **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints and templates for switches, diodes, MCU, and other components.
+- **[ZMK Firmware](https://zmk.dev/):** For providing the open-source wireless keyboard firmware that powers the Bluetooth functionality of this project.
+- KiCad: For PCB design and schematic capture.
+- **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
+- Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
