@@ -43,7 +43,7 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 - Bluetooth compatible
 - Customizable keymaps, layers, and macros
 - Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
-- KiCad traces auto-routed using FreeRoute
+- KiCad traces auto-routed using Freerouting
 
 <br>
 
@@ -84,7 +84,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints and templates for switches, diodes, MCU, and other components.
 - **[ZMK Firmware](https://zmk.dev/):** For providing the open-source wireless keyboard firmware that powers the Bluetooth functionality of this project.
 - **[KiCad](https://www.kicad.org/):** For PCB editing.
-- **[Freeroute](https://www.freerouting.app/):** Advanced PCB auto-routing in KiCad.
+- **[Freerouting](https://www.freerouting.app/):** Advanced PCB auto-routing in KiCad.
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
 - **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration.
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
