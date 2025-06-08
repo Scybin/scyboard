@@ -82,7 +82,7 @@ Experimental Prototype. Scyboard is in early development. Not yet tested. There 
 - **[ZMK Firmware](https://zmk.dev/):** For providing the open-source wireless keyboard firmware that powers the Bluetooth functionality of this project.
 - KiCad: For PCB design and schematic capture.
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
-- **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix column stagger inspiration
+- **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 ## 📄 License
