@@ -6494,6 +6494,86 @@
 
   
   
+  (segment (start 164.08 49.44499999999999) (end 162.9 49.44499999999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 154.92 49.44499999999999) (end 156.1 49.44499999999999) (width 0.25) (layer "F.Cu"))
+
+  (segment (start 151.88 49.44499999999999) (end 154 49.44499999999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 151.88 49.44499999999999) (end 154 49.44499999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 165 49.44499999999999) (end 167.12 49.44499999999999) (width 0.25) (layer "F.Cu"))
+  (segment (start 167.12 49.44499999999999) (end 165 49.44499999999999) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 156.895305 49.675) (end 162.67 49.675) (width 0.25) (layer "B.Cu"))
+  (segment (start 154.725 49.44499999999999) (end 155.074695 49.44499999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.79969499999999 50.169999999999995) (end 156.400305 50.169999999999995) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.074695 49.44499999999999) (end 155.79969499999999 50.169999999999995) (width 0.25) (layer "B.Cu"))
+  (segment (start 156.400305 50.169999999999995) (end 156.895305 49.675) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 164.275 49.44499999999999) (end 163.925305 49.44499999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.094695 49.224999999999994) (end 156.32 49.224999999999994) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.925305 49.44499999999999) (end 163.20030500000001 48.72) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.20030500000001 48.72) (end 162.599695 48.72) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.599695 48.72) (end 162.094695 49.224999999999994) (width 0.25) (layer "B.Cu"))
+        
+  (segment (start 164.08 51.985) (end 162.9 51.985) (width 0.25) (layer "F.Cu"))
+  (segment (start 154.92 51.985) (end 156.1 51.985) (width 0.25) (layer "F.Cu"))
+
+  (segment (start 151.88 51.985) (end 154 51.985) (width 0.25) (layer "F.Cu"))
+  (segment (start 151.88 51.985) (end 154 51.985) (width 0.25) (layer "B.Cu"))
+  (segment (start 165 51.985) (end 167.12 51.985) (width 0.25) (layer "F.Cu"))
+  (segment (start 167.12 51.985) (end 165 51.985) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 156.895305 52.214999999999996) (end 162.67 52.214999999999996) (width 0.25) (layer "B.Cu"))
+  (segment (start 154.725 51.985) (end 155.074695 51.985) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.79969499999999 52.709999999999994) (end 156.400305 52.709999999999994) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.074695 51.985) (end 155.79969499999999 52.709999999999994) (width 0.25) (layer "B.Cu"))
+  (segment (start 156.400305 52.709999999999994) (end 156.895305 52.214999999999996) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 164.275 51.985) (end 163.925305 51.985) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.094695 51.76499999999999) (end 156.32 51.76499999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.925305 51.985) (end 163.20030500000001 51.26) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.20030500000001 51.26) (end 162.599695 51.26) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.599695 51.26) (end 162.094695 51.76499999999999) (width 0.25) (layer "B.Cu"))
+        
+  (segment (start 164.08 54.525) (end 162.9 54.525) (width 0.25) (layer "F.Cu"))
+  (segment (start 154.92 54.525) (end 156.1 54.525) (width 0.25) (layer "F.Cu"))
+
+  (segment (start 151.88 54.525) (end 154 54.525) (width 0.25) (layer "F.Cu"))
+  (segment (start 151.88 54.525) (end 154 54.525) (width 0.25) (layer "B.Cu"))
+  (segment (start 165 54.525) (end 167.12 54.525) (width 0.25) (layer "F.Cu"))
+  (segment (start 167.12 54.525) (end 165 54.525) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 156.895305 54.754999999999995) (end 162.67 54.754999999999995) (width 0.25) (layer "B.Cu"))
+  (segment (start 154.725 54.525) (end 155.074695 54.525) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.79969499999999 55.25) (end 156.400305 55.25) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.074695 54.525) (end 155.79969499999999 55.25) (width 0.25) (layer "B.Cu"))
+  (segment (start 156.400305 55.25) (end 156.895305 54.754999999999995) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 164.275 54.525) (end 163.925305 54.525) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.094695 54.30499999999999) (end 156.32 54.30499999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.925305 54.525) (end 163.20030500000001 53.8) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.20030500000001 53.8) (end 162.599695 53.8) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.599695 53.8) (end 162.094695 54.30499999999999) (width 0.25) (layer "B.Cu"))
+        
+  (segment (start 164.08 57.065) (end 162.9 57.065) (width 0.25) (layer "F.Cu"))
+  (segment (start 154.92 57.065) (end 156.1 57.065) (width 0.25) (layer "F.Cu"))
+
+  (segment (start 151.88 57.065) (end 154 57.065) (width 0.25) (layer "F.Cu"))
+  (segment (start 151.88 57.065) (end 154 57.065) (width 0.25) (layer "B.Cu"))
+  (segment (start 165 57.065) (end 167.12 57.065) (width 0.25) (layer "F.Cu"))
+  (segment (start 167.12 57.065) (end 165 57.065) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 156.895305 57.294999999999995) (end 162.67 57.294999999999995) (width 0.25) (layer "B.Cu"))
+  (segment (start 154.725 57.065) (end 155.074695 57.065) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.79969499999999 57.78999999999999) (end 156.400305 57.78999999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 155.074695 57.065) (end 155.79969499999999 57.78999999999999) (width 0.25) (layer "B.Cu"))
+  (segment (start 156.400305 57.78999999999999) (end 156.895305 57.294999999999995) (width 0.25) (layer "B.Cu"))
+
+  (segment (start 164.275 57.065) (end 163.925305 57.065) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.094695 56.845) (end 156.32 56.845) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.925305 57.065) (end 163.20030500000001 56.339999999999996) (width 0.25) (layer "B.Cu"))
+  (segment (start 163.20030500000001 56.339999999999996) (end 162.599695 56.339999999999996) (width 0.25) (layer "B.Cu"))
+  (segment (start 162.599695 56.339999999999996) (end 162.094695 56.845) (width 0.25) (layer "B.Cu"))
+        
     
 
   (footprint "ceoloide:power_switch_smd_side"
