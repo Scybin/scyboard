@@ -16,7 +16,7 @@
 - [🔧 Project Status](#-project-status)
 - [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
-- [🙏 Credits](#-credits)
+- [🙏 Thanks](#-thanks)
 - [📄 License](#-license)
 
 <br>
@@ -80,7 +80,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 
 <br>
 
-## 🙏 Credits
+## 🙏 Thanks
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
 - **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints and templates for switches, diodes, MCU, and other components.
