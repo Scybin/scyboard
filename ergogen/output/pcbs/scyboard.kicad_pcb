@@ -82,30 +82,30 @@
   )
 
   (net 0 "")
-(net 1 "column_0")
+(net 1 "col_0")
 (net 2 "outer_bottom_B")
 (net 3 "GND")
 (net 4 "D1")
 (net 5 "D2")
 (net 6 "outer_home_B")
 (net 7 "outer_top_B")
-(net 8 "column_1")
+(net 8 "col_1")
 (net 9 "pinky_bottom_B")
 (net 10 "pinky_home_B")
 (net 11 "pinky_top_B")
-(net 12 "column_2")
+(net 12 "col_2")
 (net 13 "ring_bottom_B")
 (net 14 "ring_home_B")
 (net 15 "ring_top_B")
-(net 16 "column_3")
+(net 16 "col_3")
 (net 17 "middle_bottom_B")
 (net 18 "middle_home_B")
 (net 19 "middle_top_B")
-(net 20 "column_4")
+(net 20 "col_4")
 (net 21 "index_bottom_B")
 (net 22 "index_home_B")
 (net 23 "index_top_B")
-(net 24 "column_5")
+(net 24 "col_5")
 (net 25 "inner_bottom_B")
 (net 26 "inner_home_B")
 (net 27 "inner_top_B")
@@ -217,7 +217,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -253,7 +253,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -437,7 +437,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -473,7 +473,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -657,7 +657,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -693,7 +693,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 1 "column_0")
+      (net 1 "col_0")
     )
     
 
@@ -877,7 +877,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -913,7 +913,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -1097,7 +1097,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -1133,7 +1133,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -1317,7 +1317,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -1353,7 +1353,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 8 "column_1")
+      (net 8 "col_1")
     )
     
 
@@ -1537,7 +1537,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -1573,7 +1573,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -1757,7 +1757,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -1793,7 +1793,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -1977,7 +1977,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -2013,7 +2013,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -2197,7 +2197,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2233,7 +2233,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2417,7 +2417,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2453,7 +2453,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2637,7 +2637,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2673,7 +2673,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -2857,7 +2857,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -2893,7 +2893,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -3077,7 +3077,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -3113,7 +3113,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -3297,7 +3297,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -3333,7 +3333,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -3517,7 +3517,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -3553,7 +3553,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -3737,7 +3737,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -3773,7 +3773,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -3957,7 +3957,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -3993,7 +3993,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -4177,7 +4177,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -4213,7 +4213,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 12 "column_2")
+      (net 12 "col_2")
     )
     
 
@@ -4397,7 +4397,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -4433,7 +4433,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 16 "column_3")
+      (net 16 "col_3")
     )
     
 
@@ -4617,7 +4617,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -4653,7 +4653,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 20 "column_4")
+      (net 20 "col_4")
     )
     
 
@@ -4837,7 +4837,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_right)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -4873,7 +4873,7 @@
       (roundrect_rratio 0)
 			(chamfer_ratio 0.455)
 			(chamfer bottom_left)
-      (net 24 "column_5")
+      (net 24 "col_5")
     )
     
 
@@ -6307,10 +6307,10 @@
     )
           
     
-    (pad "20" thru_hole circle (at -7.62 -2.539999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 1 "column_0"))
+    (pad "20" thru_hole circle (at -7.62 -2.539999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 1 "col_0"))
     (pad "5" thru_hole circle (at 7.62 -2.539999999999999 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 43 "P2"))
       
-    (fp_text user "column_0" (at -4.47 -2.539999999999999 0) (layer "F.SilkS")
+    (fp_text user "col_0" (at -4.47 -2.539999999999999 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6322,15 +6322,15 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_0" (at 4.47 -2.539999999999999 0) (layer "B.SilkS")
+    (fp_text user "col_0" (at 4.47 -2.539999999999999 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
     
-    (pad "19" thru_hole circle (at -7.62 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 8 "column_1"))
+    (pad "19" thru_hole circle (at -7.62 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 8 "col_1"))
     (pad "6" thru_hole circle (at 7.62 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 44 "P3"))
       
-    (fp_text user "column_1" (at -4.47 0 0) (layer "F.SilkS")
+    (fp_text user "col_1" (at -4.47 0 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6342,15 +6342,15 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_1" (at 4.47 0 0) (layer "B.SilkS")
+    (fp_text user "col_1" (at 4.47 0 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
     
-    (pad "18" thru_hole circle (at -7.62 2.540000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 12 "column_2"))
+    (pad "18" thru_hole circle (at -7.62 2.540000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 12 "col_2"))
     (pad "7" thru_hole circle (at 7.62 2.540000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 34 "row_0"))
       
-    (fp_text user "column_2" (at -4.47 2.540000000000001 0) (layer "F.SilkS")
+    (fp_text user "col_2" (at -4.47 2.540000000000001 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6362,15 +6362,15 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_2" (at 4.47 2.540000000000001 0) (layer "B.SilkS")
+    (fp_text user "col_2" (at 4.47 2.540000000000001 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
     
-    (pad "17" thru_hole circle (at -7.62 5.080000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 16 "column_3"))
+    (pad "17" thru_hole circle (at -7.62 5.080000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 16 "col_3"))
     (pad "8" thru_hole circle (at 7.62 5.080000000000002 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 33 "row_1"))
       
-    (fp_text user "column_3" (at -4.47 5.080000000000002 0) (layer "F.SilkS")
+    (fp_text user "col_3" (at -4.47 5.080000000000002 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6382,15 +6382,15 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_3" (at 4.47 5.080000000000002 0) (layer "B.SilkS")
+    (fp_text user "col_3" (at 4.47 5.080000000000002 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
     
-    (pad "16" thru_hole circle (at -7.62 7.620000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 20 "column_4"))
+    (pad "16" thru_hole circle (at -7.62 7.620000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 20 "col_4"))
     (pad "9" thru_hole circle (at 7.62 7.620000000000001 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 32 "row_2"))
       
-    (fp_text user "column_4" (at -4.47 7.620000000000001 0) (layer "F.SilkS")
+    (fp_text user "col_4" (at -4.47 7.620000000000001 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6402,15 +6402,15 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_4" (at 4.47 7.620000000000001 0) (layer "B.SilkS")
+    (fp_text user "col_4" (at 4.47 7.620000000000001 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
     
-    (pad "15" thru_hole circle (at -7.62 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 24 "column_5"))
+    (pad "15" thru_hole circle (at -7.62 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 24 "col_5"))
     (pad "10" thru_hole circle (at 7.62 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (net 35 "row_3"))
       
-    (fp_text user "column_5" (at -4.47 10.16 0) (layer "F.SilkS")
+    (fp_text user "col_5" (at -4.47 10.16 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
             
@@ -6422,7 +6422,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             
-    (fp_text user "column_5" (at 4.47 10.16 0) (layer "B.SilkS")
+    (fp_text user "col_5" (at 4.47 10.16 0) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
             

@@ -353,6 +353,7 @@ pcbs:
           show_instructions: false
           use_rectangular_jumpers: true
           only_required_jumpers: true
+          include_traces: false
 
           #Pin Assignments
 
