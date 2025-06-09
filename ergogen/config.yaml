@@ -348,7 +348,6 @@ pcbs:
         params:
           reversible: true
           use_rectangular_jumpers: true
-          only_required_jumpers: true
           show_instructions: false
 
           #Pin Assignments
