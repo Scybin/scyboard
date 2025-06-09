@@ -84,7 +84,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
 - **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints.
-- **[ZMK Firmware](https://zmk.dev/):** For providing the open-source keyboard architecture support, and enabling the Bluetooth functionality of this project.
+- **[ZMK Firmware](https://zmk.dev/):** For providing the open-source keyboard architecture support.
 - **[KiCad](https://www.kicad.org/):** For PCB viewing and editing.
 - **[Freerouting](https://www.freerouting.app/):** For PCB auto-routing in KiCad.
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
