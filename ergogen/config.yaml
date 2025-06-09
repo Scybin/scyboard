@@ -377,10 +377,10 @@ pcbs:
           # GND
           # P2:        # Free pin, not used
           # P3:        # Free pin, not used
-          P4: Row_0
-          P5: Row_1
-          P6: Row_2
-          P7: Row_3
+          P4: row_0
+          P5: row_1
+          P6: row_2
+          P7: row_3
           # P8:        # Free pin, not used
           # P9:        # Free pin, not used
 
