@@ -71,26 +71,26 @@ points:
       columns:
         outer:
           key:
-            column_net: column_0
+            column_net: col_0
         pinky:
           key:
-            column_net: column_1
+            column_net: col_1
             stagger: 0.1cx
         ring:
           key:
-            column_net: column_2
+            column_net: col_2
             stagger: 0.66cx
         middle:
           key:
-            column_net: column_3
+            column_net: col_3
             stagger: 0.25cx
         index:
           key:
-            column_net: column_4
+            column_net: col_4
             stagger: -0.25cx
         inner:
           key:
-            column_net: column_5
+            column_net: col_5
             stagger: -0.15cx
       rows:
         bottom:
@@ -114,25 +114,25 @@ points:
       columns:
         tuck:
           key:
-            column_net: column_2
+            column_net: col_2
             name: thumb_tuck
             shift: [-0.5cx, -1cx]
         layer: 
           key:
-            column_net: column_3
+            column_net: col_3
             name: thumb_layer
             shift: [-0.42cx, -1.22cx]
             rotate: -15
         space:
           key:
-            column_net: column_4
+            column_net: col_4
             name: thumb_space
             width: 1.5kx
             shift: [-0.3cx, -1.4cx]
             rotate: -117
         reach:
           key:
-           column_net: column_5
+           column_net: col_5
            name: thumb_reach
            width: 1.5kx
            shift: [-0.4cx, -2cx]
@@ -361,12 +361,12 @@ pcbs:
           # GND         # Ground / Battery Neg
           # RST         # Reset pin
           # VCC         # External Power
-          P21: column_0
-          P20: column_1
-          P19: column_2
-          P18: column_3
-          P15: column_4
-          P14: column_5
+          P21: col_0
+          P20: col_1
+          P19: col_2
+          P18: col_3
+          P15: col_4
+          P14: col_5
           # P16:        # Free pin, not used
           # P10:        # Free pin, not used
 
