@@ -71,34 +71,34 @@ points:
       columns:
         outer:
           key:
-            column_net: C0
+            column_net: column_0
         pinky:
           key:
-            column_net: C1
+            column_net: column_1
             stagger: 0.1cx
         ring:
           key:
-            column_net: C2
+            column_net: column_2
             stagger: 0.66cx
         middle:
           key:
-            column_net: C3
+            column_net: column_3
             stagger: 0.25cx
         index:
           key:
-            column_net: C4
+            column_net: column_4
             stagger: -0.25cx
         inner:
           key:
-            column_net: C5
+            column_net: column_5
             stagger: -0.15cx
       rows:
         bottom:
-          row_net: R2
+          row_net: row_2
         home:
-          row_net: R1
+          row_net: row_1
         top:
-          row_net: R0
+          row_net: row_0
 
     # Thumb cluster
     thumb:
@@ -114,32 +114,32 @@ points:
       columns:
         tuck:
           key:
-            column_net: C2
+            column_net: column_2
             name: thumb_tuck
             shift: [-0.5cx, -1cx]
         layer: 
           key:
-            column_net: C3
+            column_net: column_3
             name: thumb_layer
             shift: [-0.42cx, -1.22cx]
             rotate: -15
         space:
           key:
-            column_net: C4
+            column_net: column_4
             name: thumb_space
             width: 1.5kx
             shift: [-0.3cx, -1.4cx]
             rotate: -117
         reach:
           key:
-           column_net: C5
+           column_net: column_5
            name: thumb_reach
            width: 1.5kx
            shift: [-0.4cx, -2cx]
            rotate: -124
       rows:
         cluster:
-          row_net: R3
+          row_net: row_3
 
     # Helper points
     screw_pcb_outer_top:
@@ -304,6 +304,7 @@ pcbs:
       main:
         outline: pcb
     footprints:
+
       key_switches:
         what: ceoloide/switch_choc_v1_v2
         where: /key/
@@ -314,6 +315,7 @@ pcbs:
           choc_v2_support: false
         adjust:
           rotate: switch_rotation
+
       diodes_b:
         what: ceoloide/diode_tht_sod123
         where: /key/
@@ -324,7 +326,8 @@ pcbs:
           side: B
         adjust:
           shift: [horizontal_diode_shift, vertical_diode_shift]
-          rotate: 90 + diode_rotation       
+          rotate: 90 + diode_rotation  
+          
       diodes_f:
         what: ceoloide/diode_tht_sod123
         where: /key/
@@ -335,34 +338,52 @@ pcbs:
           side: F
         adjust:
           shift: [-1 * horizontal_diode_shift, vertical_diode_shift]
-          rotate: 90 + diode_rotation    
+          rotate: 90 + diode_rotation   
+          
       mcu:
         what: ceoloide/mcu_nice_nano
         where:
           ref: matrix_inner_top
           shift: [kx+mcu_padding, -mcu_width/2+1.875]
         params:
-          P0: DAT
-          P1: LED
-          P21: C0
-          P20: C1
-          P19: C2
-          P18: C3
-          P15: C4
-          P14: C5
-          P2: SDA
-          P3: SCL
-          P4: CS
-          P5: R0
-          P6: R1
-          P7: R2
-          P8: R3
           reversible: true
           include_traces: true
           show_silk_labels: true
           show_via_labels: true
           show_instructions: false
           use_rectangular_jumpers: true
+          only_required_jumpers: true
+
+          #Pin Assignments
+
+          # Left side
+          # RAW         # Battery Pos
+          # GND         # Ground / Battery Neg
+          # RST         # Reset pin
+          # VCC         # External Power
+          P21: column_0
+          P20: column_1
+          P19: column_2
+          P18: column_3
+          P15: column_4
+          P14: column_5
+          # P16:        # Free pin, not used
+          # P10:        # Free pin, not used
+
+          #Right side
+          # P0:        # Free pin, not used
+          # P1:        # Free pin, not used
+          # GND
+          # GND
+          # P2:        # Free pin, not used
+          # P3:        # Free pin, not used
+          P4: Row_0
+          P5: Row_1
+          P6: Row_2
+          P7: Row_3
+          # P8:        # Free pin, not used
+          # P9:        # Free pin, not used
+
       on_off_switch:
         what: ceoloide/power_switch_smd_side
         where: matrix_inner_top
@@ -372,6 +393,7 @@ pcbs:
           reversible: true
         adjust:
           shift: [pwr_x, pwr_y]
+
       reset_switch:
         what: ceoloide/reset_switch_smd_side
         where: matrix_inner_top
@@ -381,7 +403,8 @@ pcbs:
           reversible: true
           include_bosses: true
         adjust:
-          shift: [rst_x, rst_y]    
+          shift: [rst_x, rst_y]  
+          
       battery_connector:  
         what: ceoloide/battery_connector_jst_ph_2
         where: matrix_inner_top
@@ -393,12 +416,14 @@ pcbs:
         adjust:
           shift: [jst_x, jst_y]
           rotate: 90
+
       screw_holes:
         what: ceoloide/mounting_hole_npth
         where: /screw_pcb/
         params:
           hole_size: spacer_diameter
           hole_drill: spacer_diameter
+
 cases:
   bottom:
     - name: pcb
