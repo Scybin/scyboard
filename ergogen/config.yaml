@@ -347,13 +347,12 @@ pcbs:
           shift: [kx+mcu_padding, -mcu_width/2+1.875]
         params:
           reversible: true
-          include_traces: true
+          include_traces: false
           show_silk_labels: true
           show_via_labels: true
           show_instructions: false
           use_rectangular_jumpers: true
           only_required_jumpers: true
-          include_traces: false
 
           #Pin Assignments
 
