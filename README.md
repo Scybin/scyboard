@@ -67,7 +67,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 
 ## 📦 Parts List
 
-| Part                    | Quantity | Description                          | Datasheet Link                                                                                                       |
+| Part                    | Quantity | Description                          | Datasheet & Purchase Links                                                                                           |
 |-------------------------|----------|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Microcontroller         |    2     | nice!nano v2.0                       | [Nordic nRF52840](https://nicekeyboards.com/nice-nano)                                                               |
 | MCU Socket              |    4     | No-Solder Springs Headers            | [Purchase Link (typeractive)](https://typeractive.xyz/products/no-solder-spring-headers?variant=47196312502503)      |
@@ -79,6 +79,9 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 | Hotswap Sockets         |    44    | Kailh Choc PCB Socket                | [1350Connector](https://www.kailhswitch.com/Content/upload/pdf/202115927/CPG135001S30-data-sheet.pdf?rnd=943)        |
 | Choc V1/V2 Switches     |    44    | Kailh Choc                           |                                                                                                                      |
 | Choc Keycaps            |    44    | 40 x 1u, 4 x 1.5u                    |                                                                                                                      |
+| Bottom Case (optional)  |    1     | 3D printed bottom case               |                                                                                                                      |
+| Nuts (optional)         |    12    | Inserts for bottom case              | [Purchase Link](https://www.amazon.com/dp/B07LBQFNQD?th=1)                                                           |
+| M2X3 screws (optional)  |    12    | Screws for bottom case               | [Purchase Link]([https://www.amazon.com/dp/B07LBQFNQD?th=1](https://www.amazon.com/gp/product/B01FTI8TM8/))          |
 
 <br>
 
