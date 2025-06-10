@@ -81,7 +81,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 | Choc Keycaps            |    44    | 40 x 1u, 4 x 1.5u                    |                                                                                                                      |
 | Bottom Case (optional)  |    1     | 3D printed bottom case               |                                                                                                                      |
 | Nuts (optional)         |    12    | Inserts for bottom case              | [Purchase Link](https://www.amazon.com/dp/B07LBQFNQD?th=1)                                                           |
-| M2X3 screws (optional)  |    12    | Screws for bottom case               | [Purchase Link]([https://www.amazon.com/dp/B07LBQFNQD?th=1](https://www.amazon.com/gp/product/B01FTI8TM8/))          |
+| M2X3 screws (optional)  |    12    | Screws for bottom case               | [Purchase Link]([https://www.amazon.com/dp/B07LBQFNQD?th=1](https://www.amazon.com/gp/product/B01FTI8TM8/)           |
 
 <br>
 
