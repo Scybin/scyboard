@@ -16,6 +16,7 @@
 - [🔧 Project Status](#-project-status)
 - [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
+- [🛠️ Build Guide](#-build-guide)
 - [🙏 Thanks](#-thanks)
 - [📄 License](#-license)
 
@@ -59,7 +60,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - Review PCB changes and update parts list for: (screws, headers, etc.)
 - Create ZMK firmware
 - Review & update README to ensure correctness
-- Create build guide once prototyping is complete
+- Create a build guide once prototyping is complete
 
 <br>
 
@@ -74,9 +75,15 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 | Battery Jack            |    2     | JST PH 2.0mm                         | [JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal](http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)                            |
 | Battery                 |    2     | 3.7V LiPo 110mAh (w/ JST adapter)    | [301230](https://www.ufinebattery.com/images/upload/ufx0509-08-3-7v-75mah-lithium-ion-battery-product-datasheet.pdf) |
 | Diode                   |    44    | SMD Diode                            | [SOD-123](https://www.onsemi.com/download/data-sheet/pdf/mmsd301t1-d.pdf)                                            |
-| Choc V1/V2 Switches     |    44    | Kailh Choc                           |                                                                                                                      |
 | Hotswap Sockets         |    44    | Kailh Choc PCB Socket                | [1350Connector](https://www.kailhswitch.com/Content/upload/pdf/202115927/CPG135001S30-data-sheet.pdf?rnd=943)        |
+| Choc V1/V2 Switches     |    44    | Kailh Choc                           |                                                                                                                      |
 | Choc Keycaps            |    44    | 40 x 1u, 4 x 1.5u                    |                                                                                                                      |
+
+<br>
+
+## 🛠️ Build Guide
+
+TODO
 
 <br>
 
