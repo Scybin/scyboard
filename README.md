@@ -13,7 +13,7 @@
 - [⚠️ Disclaimer](#-disclaimer)
 - [⌨️ Welcome](#-welcome)
 - [⚙️ Features](#-features)
-- [🔧 Project Status](#-project-status)
+- [📊 Project Status](#-project-status)
 - [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
 - [🛠️ Build Guide](#-build-guide)
@@ -48,7 +48,7 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 <br>
 
-## 🔧 Project Status
+## 📊 Project Status
 
 Not yet tested!! Scyboard is still in early development, this is an experimental prototype. There may still be bugs or hardware issues.
 
