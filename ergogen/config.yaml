@@ -417,7 +417,7 @@ pcbs:
         what: ceoloide/utility_ergogen_logo
         where: matrix_pinky_bottom
         adjust:
-          shift: [-23, -6.8]
+          shift: [23, -6.8]
 
       screw_holes:
         what: ceoloide/mounting_hole_npth
