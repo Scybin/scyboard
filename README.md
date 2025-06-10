@@ -92,6 +92,8 @@ TODO
 
 TODO
 
+<br>
+
 ## 🙏 Thanks
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
