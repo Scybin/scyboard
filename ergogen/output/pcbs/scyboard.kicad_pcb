@@ -7360,7 +7360,7 @@
 
   (footprint "ceoloide:utility_ergogen_logo"
     (layer "F.Cu")
-    (at 45 105 0)
+    (at 91 105 0)
     (property "Reference" "LOGO1"
       (at 4.572 0 0)
       (layer "F.Fab")
