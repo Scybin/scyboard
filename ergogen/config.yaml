@@ -44,18 +44,18 @@ units:
   jst_shift: 3.5 # JST footprint center point shift
 
   # Screw variables
-  #screw_size: 1.5 # M2 flathead screw
-  #screw_x: (-kx/2) # Screw position on x-axis
-  #screw_y: (-ky/2) # Screw position on y-axis
+  screw_size: 1.5 # M2 flathead screw
+  screw_x: (-kx/2) # Screw position on x-axis
+  screw_y: (-ky/2) # Screw position on y-axis
 
   # Standoff variables
-  #standoff_size: 2.5 # Threaded screw inserts 3.2mm wide, and 3mm tall
-  #spacer_radius: 2.15 # M2 standoffs
-  #spacer_diameter: spacer_radius * 2
+  standoff_size: 2.5 # Threaded screw inserts 3.2mm wide, and 3mm tall
+  spacer_radius: 2.15 # M2 standoffs
+  spacer_diameter: spacer_radius * 2
 
   # Case variables
-  #case_x: kx+8 # Case position on x-axis
-  #case_y: ky+8 # Case position on y-axis
+  case_x: kx+8 # Case position on x-axis
+  case_y: ky+8 # Case position on y-axis
 
 points:
   zones:
@@ -142,48 +142,48 @@ points:
           row_net: R3
 
     # Helper points
-    #screw_pcb_outer_top:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: matrix_outer_top
-    #      shift: [-screw_x-0.5, screw_y]
-    #screw_pcb_outer_bottom:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: matrix_outer_bottom
-    #      shift: [-screw_x-0.5, -screw_y]
-    #screw_pcb_ring_top:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: matrix_ring_top
-    #      shift: [screw_x-2, 0]
-    #screw_pcb_inner_top:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: matrix_inner_top
-    #      shift: [screw_x+0.5, screw_y]
-    #screw_pcb_inner_bottom:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: matrix_inner_bottom
-    #      shift: [23.65, -19.5]
-    #screw_pcb_thumb_tuck:
-    #  key.tags:
-    #    - helper
-    #    - screw
-    #  anchor:
-    #    - ref: thumb_tuck
-    #      shift: [-4.5, 10.75]
+    screw_pcb_outer_top:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_outer_top
+          shift: [7.75, 11]
+    screw_pcb_outer_bottom:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_outer_bottom
+          shift: [29.64, 2.75]
+    screw_pcb_ring_top:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_ring_top
+          shift: [6.37, 11.14]
+    screw_pcb_index_top:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_index_top
+          shift: [-6.37, 11.14]
+    screw_pcb_inner_bottom:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: matrix_inner_bottom
+          shift: [12.25, -1.31]
+    screw_pcb_thumb_tuck:
+      key.tags:
+        - helper
+        - screw
+      anchor:
+        - ref: thumb_tuck
+          shift: [-4.5, 10.75]
   #mirror: &mirror
   #  ref: matrix_inner_top
   #  distance: 5kx
@@ -240,62 +240,62 @@ outlines:
           shift: [0.5px,-0.7py]                                      
         - ref: matrix_outer_bottom
           shift: [-0.6px,-0.6py]
-    #xlBoard:
-    #- what: polygon
-    #  operation: stack
-    #  fillet: 2
-    #  points:
-    #    - ref: matrix_outer_top
-    #      shift: [-0.6case_x, 0.5case_y]
-    #    - ref: matrix_pinky_top
-    #      shift: [-0.5case_x, 0.7case_y]
-    #    - ref: matrix_ring_top
-    #      shift: [-0.5case_x, 0.6case_y]
-    #    - ref: matrix_middle_top
-    #      shift: [-0.5case_x, 0.6case_y]
-    #    - ref: matrix_middle_top
-    #      shift: [0.5case_x, 0.6case_y]
-    #    - ref: matrix_index_top
-    #      shift: [0.5case_x, 0.6case_y]
-    #    - ref: matrix_inner_top
-    #      shift: [0.55case_x, 0.5case_y]
-    #    - ref: matrix_inner_top
-    #      shift: [0.55case_x+mcu_padding+mcu_width+0.35, 0.5case_y]
-    #    - ref: matrix_inner_top
-    #      shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.5case_y]
-    #    - ref: matrix_inner_bottom
-    #      shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.35case_y]      
-    #    - ref: thumb_reach
-    #      shift: [-0.8case_x, 0.6case_y]
-    #    - ref: thumb_reach
-    #      shift: [-0.6case_x, 0.6case_y]
-    #    - ref: thumb_reach
-    #      shift: [0.8case_x, 0.6case_y]        
-    #    - ref: thumb_space
-    #      shift: [0.8case_x, 0.45case_y]
-    #    - ref: thumb_space
-    #      shift: [0.8case_x, -0.45case_y]          
-    #    - ref: thumb_layer
-    #      shift: [-0.4case_x,-0.6case_y]                    
-    #    - ref: thumb_tuck
-    #      shift: [-0.4case_x,-0.6case_y]               
-    #    - ref: matrix_pinky_bottom
-    #      shift: [0.4case_x,-0.7case_y]                                      
-    #    - ref: matrix_outer_bottom
-    #      shift: [-0.6case_x,-0.6case_y]
-    #mounting: 
-    #- what: circle
-    #  radius: screw_size
-    #  where: /screw/
-    #standoff:
-    #- what: circle
-    #  radius: standoff_size
-    #  where: /screw/
-    #_combo:
-    #- what: outline
-    #  name: pcb
-    #- operation: stack
-    #  name: xlBoard
+    xlBoard:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.6case_x, 0.5case_y]
+        - ref: matrix_pinky_top
+          shift: [-0.5case_x, 0.7case_y]
+        - ref: matrix_ring_top
+          shift: [-0.5case_x, 0.6case_y]
+        - ref: matrix_middle_top
+          shift: [-0.5case_x, 0.6case_y]
+        - ref: matrix_middle_top
+          shift: [0.5case_x, 0.6case_y]
+        - ref: matrix_index_top
+          shift: [0.5case_x, 0.6case_y]
+        - ref: matrix_inner_top
+          shift: [0.55case_x, 0.5case_y]
+        - ref: matrix_inner_top
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, 0.5case_y]
+        - ref: matrix_inner_top
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.5case_y]
+        - ref: matrix_inner_bottom
+          shift: [0.55case_x+mcu_padding+mcu_width+0.35, -0.35case_y]      
+        - ref: thumb_reach
+          shift: [-0.8case_x, 0.6case_y]
+        - ref: thumb_reach
+          shift: [-0.6case_x, 0.6case_y]
+        - ref: thumb_reach
+          shift: [0.8case_x, 0.6case_y]        
+        - ref: thumb_space
+          shift: [0.8case_x, 0.45case_y]
+        - ref: thumb_space
+          shift: [0.8case_x, -0.45case_y]          
+        - ref: thumb_layer
+          shift: [-0.4case_x,-0.6case_y]                    
+        - ref: thumb_tuck
+          shift: [-0.4case_x,-0.6case_y]               
+        - ref: matrix_pinky_bottom
+          shift: [0.4case_x,-0.7case_y]                                      
+        - ref: matrix_outer_bottom
+          shift: [-0.6case_x,-0.6case_y]
+    mounting: 
+    - what: circle
+      radius: screw_size
+      where: /screw/
+    standoff:
+    - what: circle
+      radius: standoff_size
+      where: /screw/
+    _combo:
+    - what: outline
+      name: pcb
+    - operation: stack
+      name: xlBoard
 
 pcbs:
   scyboard:
@@ -419,49 +419,49 @@ pcbs:
         adjust:
           shift: [23, -6.8]
 
-      #screw_holes:
-      #  what: ceoloide/mounting_hole_npth
-      #  where: /screw_pcb/
-      #  params:
-      #    hole_size: spacer_diameter
-      #    hole_drill: spacer_diameter
+      screw_holes:
+        what: ceoloide/mounting_hole_npth
+        where: /screw_pcb/
+        params:
+          hole_size: spacer_diameter
+          hole_drill: spacer_diameter
 
-#cases:
-#  bottom:
-#    - name: pcb
-#      extrude: 1
-#  xlBottom:
-#    - name: xlBoard
-#      extrude: 1
-#  _outerWall:
-#    - name: xlBoard
-#      extrude: 4
-#  _innerWall:
-#    - name: pcb
-#      extrude: 4
-#  wall:
-#    - what: case
-#      name: _outerWall
-#      operation: add
-#    - what: case
-#      name: _innerWall
-#      operation: subtract
-#  _holes:
-#    - name: mounting
-#      extrude: 4
-#  _standoffs:
-#    - name: standoff
-#      extrude: 4
-#  bottom_case:
-#    - what: case
-#      name: xlBottom
-#      operation: add
-#    - what: case
-#      name: wall
-#      operation: add
-#    - what: case
-#      name: _standoffs
-#      operation: add
-#    - what: case
-#      name: _holes
-#      operation: subtract
+cases:
+  bottom:
+    - name: pcb
+      extrude: 1
+  xlBottom:
+    - name: xlBoard
+      extrude: 1
+  _outerWall:
+    - name: xlBoard
+      extrude: 4
+  _innerWall:
+    - name: pcb
+      extrude: 4
+  wall:
+    - what: case
+      name: _outerWall
+      operation: add
+    - what: case
+      name: _innerWall
+      operation: subtract
+  _holes:
+    - name: mounting
+      extrude: 4
+  _standoffs:
+    - name: standoff
+      extrude: 4
+  bottom_case:
+    - what: case
+      name: xlBottom
+      operation: add
+    - what: case
+      name: wall
+      operation: add
+    - what: case
+      name: _standoffs
+      operation: add
+    - what: case
+      name: _holes
+      operation: subtract
