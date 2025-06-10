@@ -71,34 +71,34 @@ points:
       columns:
         outer:
           key:
-            column_net: col_0
+            column_net: C0
         pinky:
           key:
-            column_net: col_1
+            column_net: C1
             stagger: 0.1cx
         ring:
           key:
-            column_net: col_2
+            column_net: C2
             stagger: 0.66cx
         middle:
           key:
-            column_net: col_3
+            column_net: C3
             stagger: 0.25cx
         index:
           key:
-            column_net: col_4
+            column_net: C4
             stagger: -0.25cx
         inner:
           key:
-            column_net: col_5
+            column_net: C5
             stagger: -0.15cx
       rows:
         bottom:
-          row_net: row_2
+          row_net: R2
         home:
-          row_net: row_1
+          row_net: R1
         top:
-          row_net: row_0
+          row_net: R0
 
     # Thumb cluster
     thumb:
@@ -114,32 +114,32 @@ points:
       columns:
         tuck:
           key:
-            column_net: col_2
+            column_net: C2
             name: thumb_tuck
             shift: [-0.5cx, -1cx]
         layer: 
           key:
-            column_net: col_3
+            column_net: C3
             name: thumb_layer
             shift: [-0.42cx, -1.22cx]
             rotate: -15
         space:
           key:
-            column_net: col_4
+            column_net: C4
             name: thumb_space
             width: 1.5kx
             shift: [-0.3cx, -1.4cx]
             rotate: -117
         reach:
           key:
-           column_net: col_5
+           column_net: C5
            name: thumb_reach
            width: 1.5kx
            shift: [-0.4cx, -2cx]
            rotate: -124
       rows:
         cluster:
-          row_net: row_3
+          row_net: R3
 
     # Helper points
     screw_pcb_outer_top:
@@ -357,12 +357,12 @@ pcbs:
           # GND         # Ground / Battery Neg
           # RST         # Reset pin
           # VCC         # External Power
-          P21: col_0
-          P20: col_1
-          P19: col_2
-          P18: col_3
-          P15: col_4
-          P14: col_5
+          P21: C0
+          P20: C1
+          P19: C2
+          P18: C3
+          P15: C4
+          P14: C5
           # P16:        # Free pin, not used
           # P10:        # Free pin, not used
 
@@ -373,10 +373,10 @@ pcbs:
           # GND
           # P2:        # Free pin, not used
           # P3:        # Free pin, not used
-          P4: row_0
-          P5: row_1
-          P6: row_2
-          P7: row_3
+          P4: R0
+          P5: R1
+          P6: R2
+          P7: R3
           # P8:        # Free pin, not used
           # P9:        # Free pin, not used
 
