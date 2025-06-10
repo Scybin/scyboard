@@ -90,6 +90,7 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - **[typeractive](https://typeractive.xyz/):** For design and parts inspiration.
 - **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration.
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
+- **[FlatFootFox](https://flatfootfox.com/ergogen-introduction/):** For an Ergogen tutorial.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 <br>
