@@ -412,6 +412,12 @@ pcbs:
         adjust:
           shift: [jst_x, jst_y]
           rotate: 90
+      
+      logo:
+        what: scyboard_logo
+        where: matrix_pinky_bottom
+        adjust:
+          shift: [-23, -6.8]
 
       screw_holes:
         what: ceoloide/mounting_hole_npth
