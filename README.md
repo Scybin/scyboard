@@ -90,7 +90,7 @@ TODO
 ## 🙏 Thanks
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
-- **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints.
+- **[Ceoloide](https://github.com/ceoloide/ergogen-footprints):** For providing footprints. An additional thanks for code inspiration.
 - **[ZMK Firmware](https://zmk.dev/):** For providing the open-source keyboard architecture support.
 - **[KiCad](https://www.kicad.org/):** For PCB viewing and editing.
 - **[Freerouting](https://www.freerouting.app/):** For PCB auto-routing in KiCad.
