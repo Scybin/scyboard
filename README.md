@@ -41,11 +41,12 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 - Compact layout optimized for ergonomics
 - ZMK firmware support
-- USB-C for connectivity & battery charging
+- USB-C connectivity & battery charging
 - Bluetooth compatible
 - Customizable keymaps, layers, and macros
-- Layout is declared using [Ergogen](https://docs.ergogen.xyz/)
+- Layout is declared using Ergogen
 - KiCad traces auto-routed using Freerouting
+- Open source
 
 <br>
 
