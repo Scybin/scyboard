@@ -17,6 +17,7 @@
 - [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
 - [🛠️ Build Guide](#-build-guide)
+- [💾 Firmware](#-firmware)
 - [🙏 Thanks](#-thanks)
 - [📄 License](#-license)
 
@@ -87,6 +88,10 @@ TODO
 
 <br>
 
+## 💾 Firmware
+
+TODO
+
 ## 🙏 Thanks
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
@@ -104,6 +109,6 @@ TODO
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](scyboard/LICENSE.txt) file for details.
 
 <br>
