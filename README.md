@@ -1,12 +1,6 @@
 # scyboard
 
-<br>
-
 ![pcb_3d_render](https://github.com/user-attachments/assets/bfab142d-bc1a-432d-a56b-56626b2dfd26)
-
-
-
-
 
 ## 📚 Table of Contents
 
@@ -21,21 +15,15 @@
 - [🙏 Thanks](#-thanks)
 - [📄 License](#-license)
 
-<br>
-
 ## ⚠️ Disclaimer
 
 This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
 
 The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
 
-<br>
-
 ## ⌨️ Welcome
 
 Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep and Corne keyboards, scyboard builds on these layouts and design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
-
-<br>
 
 ## ⚙️ Features
 
@@ -48,13 +36,9 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 - KiCad traces auto-routed using Freerouting
 - Open source
 
-<br>
-
 ## 📊 Project Status
 
 Not yet tested!! Scyboard is still in early development, this is an experimental prototype. There may still be bugs or hardware issues.
-
-<br>
 
 ## 🔜 TODO
 
@@ -63,8 +47,6 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 - Create ZMK firmware
 - Review & update README to ensure correctness
 - Create a build guide once prototyping is complete
-
-<br>
 
 ## 📦 Parts List
 
@@ -84,19 +66,20 @@ Not yet tested!! Scyboard is still in early development, this is an experimental
 | Nut  (optional)         |    12    | Inserts for bottom case              | [Purchase Link](https://www.amazon.com/dp/B07LBQFNQD?th=1)                                                           |
 | M2X3 Screw  (optional)  |    12    | Screws for bottom case               | [Purchase Link](https://www.amazon.com/gp/product/B01FTI8TM8/)                                                       |
 
-<br>
-
 ## 🛠️ Build Guide
 
 TODO
 
-<br>
-
 ## 💾 Firmware
 
-TODO
+A ready-to-use ZMK configuration for this hardware is available at:  
+[zmk-config-scyboard](https://github.com/Scybin/zmk-config-scyboard)
 
-<br>
+- Includes keymaps, macros, and custom behaviors tailored for this board.
+- Compatible with the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
+- For firmware details, see the [ZMK Documentation](https://zmk.dev/docs/).
+
+To get started, fork or clone the config and follow the flashing instructions in the ZMK docs.
 
 ## 🙏 Thanks
 
@@ -109,12 +92,9 @@ TODO
 - **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration.
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
 - **[FlatFootFox](https://flatfootfox.com/ergogen-introduction/):** For an Ergogen tutorial.
+- **[nickcoutsos](https://nickcoutsos.github.io/keymap-editor/):** For the ZMK keymap editor browser app.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
-
-<br>
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
-
-<br>
