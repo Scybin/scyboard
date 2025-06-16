@@ -92,7 +92,7 @@ To get started, fork or clone the config and follow the flashing instructions in
 - **[Sweep by David Philip Barr](https://github.com/davidphilipbarr/Sweep):** For key matrix and column stagger inspiration.
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
 - **[FlatFootFox](https://flatfootfox.com/ergogen-introduction/):** For an Ergogen tutorial.
-- **[nickcoutsos](https://nickcoutsos.github.io/keymap-editor/):** For the ZMK keymap editor browser app.
+- **[nickcoutsos](https://nickcoutsos.github.io/keymap-editor/):** For the ZMK Keymap Editor browser app.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 ## 📄 License
