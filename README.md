@@ -1,6 +1,6 @@
 # scyboard
 
-![pcb_3d_render](https://github.com/user-attachments/assets/bfab142d-bc1a-432d-a56b-56626b2dfd26)
+![scyboard](https://github.com/user-attachments/assets/1c5d312a-2740-43be-ad82-f9dfe92f90a5)
 
 ## 📚 Table of Contents
 
@@ -38,15 +38,17 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 ## 📊 Project Status
 
-Not yet tested!! Scyboard is still in early development, this is an experimental prototype. There may still be bugs or hardware issues.
+The first prototype has been built successfully. All aspects of the keyboard and firmware behave as expected, with the exception of the issues listed below. In summary, the battery behaves as expected when soldered to the B+/B- pins on the MCU. Do not use the JST connector.
+
+- Battery does not charge when connected to PCB with JST connector.
+- Battery heats up MCU to dangerous temperatures when connected to PCB with JST connector, and power swithc set to the ON position.
+- Power switch does not provide battery power to the MCU when in the ON position.
 
 ## 🔜 TODO
 
-- Build & test prototype
-- Test PCB
-- Test ZMK firmware
-- Review & update README to ensure correctness
-- Create a build guide once prototyping and testing is complete
+- Create a build guide once prototyping and testing is complete.
+- Identify and solve issue with the JST connector.
+- Identify and solve issue with the power switch.
 
 ## 📦 Parts List
 
