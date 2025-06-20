@@ -1,6 +1,6 @@
 # scyboard
 
-![pcb_3d_render](https://github.com/user-attachments/assets/bfab142d-bc1a-432d-a56b-56626b2dfd26)
+![scyboard](https://github.com/user-attachments/assets/536cc8c7-8e2a-4709-b515-9bdd71e46f08)
 
 ## 📚 Table of Contents
 
@@ -38,15 +38,11 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 ## 📊 Project Status
 
-Not yet tested!! Scyboard is still in early development, this is an experimental prototype. There may still be bugs or hardware issues.
+The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected. I am working on creating a 3D case for the board.
 
 ## 🔜 TODO
 
-- Build & test prototype
-- Test PCB
-- Test ZMK firmware
-- Review & update README to ensure correctness
-- Create a build guide once prototyping and testing is complete
+- Create a build guide once prototyping and testing are complete.
 
 ## 📦 Parts List
 
