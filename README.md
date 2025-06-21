@@ -8,7 +8,6 @@
 - [⌨️ Welcome](#-welcome)
 - [⚙️ Features](#-features)
 - [📊 Project Status](#-project-status)
-- [🔜 TODO](#-todo)
 - [📦 Parts List](#-parts-list)
 - [🛠️ Build Guide](#-build-guide)
 - [💾 Firmware](#-firmware)
@@ -40,10 +39,6 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected. I am working on creating a 3D case for the board.
 
-## 🔜 TODO
-
-- Create a build guide once prototyping and testing are complete.
-
 ## 📦 Parts List
 
 *I am not sponsored or affiliated with the vendors linked below. This is where I prefer to purchase my products.*
@@ -66,7 +61,12 @@ The prototype has been built successfully. All aspects of the keyboard and firmw
 
 ## 🛠️ Build Guide
 
-TODO
+For assembling the keyboard hardware, I recommend following the guide for the Corne keyboard, as the assembly process is similar. You can find the guide here: [corne-cherry v2 buildguide](https://github.com/foostan/crkbd/blob/main/docs/corne-cherry/v2/buildguide_en.md)
+
+In addition , here are some specific notes for the scyboard:
+- There will be slight differences in the assembly process due to the different components used, but the overall steps will be similar.
+- Solder the MCU jumper pads on the *opposite* side of the PCB where the MCU wis mounted.
+- Solder the JST battery connector jumpper pads on the *same* side of the PCB where the MCU is mounted.
 
 ## 💾 Firmware
 
