@@ -46,7 +46,7 @@ The prototype has been built successfully. All aspects of the keyboard and firmw
 
 ## 📦 Parts List
 
-*I am not sponsored or affiliated with the vendors listed below. This is where I prefer to purchase my products.*
+*I am not sponsored or affiliated with the vendors linked below. This is where I prefer to purchase my products.*
 
 | Part                     | Quantity | Description                          | Purchase Link                                                                                                         | Datasheet                                                                                                            |
 |--------------------------|----------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
