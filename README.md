@@ -63,7 +63,7 @@ The prototype has been built successfully. All aspects of the keyboard and firmw
 
 For assembling the keyboard hardware, I recommend following the guide for the Corne keyboard, as the assembly process is similar. You can find the guide here: [corne-cherry v2 buildguide](https://github.com/foostan/crkbd/blob/main/docs/corne-cherry/v2/buildguide_en.md)
 
-In addition , here are some specific notes for the scyboard:
+In addition, here are some specific notes for the scyboard:
 - There will be slight differences in the assembly process due to the different components used, but the overall steps will be similar.
 - Solder the MCU jumper pads on the *opposite* side of the PCB where the MCU wis mounted.
 - Solder the JST battery connector jumpper pads on the *same* side of the PCB where the MCU is mounted.
