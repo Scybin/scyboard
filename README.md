@@ -14,16 +14,19 @@
 - [🙏 Thanks](#thanks)
 - [📄 License](#license)
 
+<a name="disclaimer"></a>
 ## ⚠️ Disclaimer
 
 This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
 
 The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
 
+<a name="welcome"></a>
 ## ⌨️ Welcome
 
 Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep and Corne keyboards, scyboard builds on these layouts and design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
 
+<a name="features"></a>
 ## ⚙️ Features
 
 - Compact layout optimized for ergonomics
@@ -35,10 +38,12 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 - KiCad traces auto-routed using Freerouting
 - Open source
 
+<a name="project-status"></a>
 ## 📊 Project Status
 
 The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected. I am working on creating a 3D case for the board.
 
+<a name="parts-list"></a>
 ## 📦 Parts List
 
 *I am not sponsored or affiliated with the vendors linked below. This is where I prefer to purchase my products.*
@@ -59,6 +64,7 @@ The prototype has been built successfully. All aspects of the keyboard and firmw
 | Nut  (optional)          |    12    | Inserts for bottom case              | [uxcell Knurled Insert Nuts](https://www.amazon.com/dp/B07LBQFNQD?th=1)                                               |                                                                                                                      |
 | M2X3 Screw  (optional)   |    12    | Screws for bottom case               | [CO-RODE Screw Kit](https://www.amazon.com/gp/product/B01FTI8TM8/)                                                    |                                                                                                                      |
 
+<a name="build-guide"></a>
 ## 🛠️ Build Guide
 
 For assembling the keyboard hardware, I recommend following the guide for the Corne keyboard, as the assembly process is similar. You can find the guide here: [corne-cherry v2 buildguide](https://github.com/foostan/crkbd/blob/main/docs/corne-cherry/v2/buildguide_en.md)
@@ -68,6 +74,7 @@ In addition, here are some specific notes for the scyboard:
 - Solder the MCU jumper pads on the *opposite* side of the PCB where the MCU wis mounted.
 - Solder the JST battery connector jumpper pads on the *same* side of the PCB where the MCU is mounted.
 
+<a name="firmware"></a>
 ## 💾 Firmware
 
 A ready-to-use ZMK configuration for this hardware is available at:  
@@ -79,6 +86,7 @@ A ready-to-use ZMK configuration for this hardware is available at:
 
 To get started, fork or clone the config and follow the flashing instructions in the ZMK docs.
 
+<a name="thanks"></a>
 ## 🙏 Thanks
 
 - **[Ergogen](https://docs.ergogen.xyz/):** For keyboard PCB generation and configuration.
@@ -93,6 +101,7 @@ To get started, fork or clone the config and follow the flashing instructions in
 - **[nickcoutsos](https://nickcoutsos.github.io/keymap-editor/):** For the ZMK Keymap Editor browser app.
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
+<a name="license"></a>
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
