@@ -4,15 +4,15 @@
 
 ## 📚 Table of Contents
 
-- [⚠️ Disclaimer](#-disclaimer)
-- [⌨️ Welcome](#-welcome)
-- [⚙️ Features](#-features)
-- [📊 Project Status](#-project-status)
-- [📦 Parts List](#-parts-list)
-- [🛠️ Build Guide](#-build-guide)
-- [💾 Firmware](#-firmware)
-- [🙏 Thanks](#-thanks)
-- [📄 License](#-license)
+- [⚠️ Disclaimer](#disclaimer)
+- [⌨️ Welcome](#welcome)
+- [⚙️ Features](#features)
+- [📊 Project Status](#project-status)
+- [📦 Parts List](#parts-list)
+- [🛠️ Build Guide](#build-guide)
+- [💾 Firmware](#firmware)
+- [🙏 Thanks](#thanks)
+- [📄 License](#license)
 
 ## ⚠️ Disclaimer
 
