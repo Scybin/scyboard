@@ -15,6 +15,7 @@
 - [📄 License](#license)
 
 <a name="disclaimer"></a>
+&nbsp;
 ## ⚠️ Disclaimer
 
 This is an early-stage experimental project. Don’t fully trust the auto-generated files. Be sure to review them carefully before sending anything to a PCB manufacturer. While the author has built working prototypes from this repo, there's no guarantee everything will work perfectly.
@@ -22,11 +23,13 @@ This is an early-stage experimental project. Don’t fully trust the auto-genera
 The author(s) take no responsibility for any damage, issues, or legal trouble that might result from using this project (see the license). Be sure to follow local laws regarding radio frequencies and DIY electronics.
 
 <a name="welcome"></a>
+&nbsp;
 ## ⌨️ Welcome
 
 Scyboard is a custom, open-source mechanical keyboard designed for ergonomic comfort and wireless functionality. Inspired by the Sweep and Corne keyboards, scyboard builds on these layouts and design principles. Every aspect was created using open-source tools, making it easy to modify, build, and share.
 
 <a name="features"></a>
+&nbsp;
 ## ⚙️ Features
 
 - Compact layout optimized for ergonomics
