@@ -71,6 +71,7 @@ For assembling the keyboard hardware, I recommend following the guide for the Co
 
 In addition, here are some specific notes for the scyboard:
 - There will be slight differences in the assembly process due to the different components used, but the overall steps will be similar.
+- Place the nice!nano V2 Microcontroller face down (flat side facing up).
 - Solder the MCU jumper pads on the *same* (top) side of the PCB where the MCU wis mounted.
 - Solder the JST battery connector jumpper pads on the *opposite* (back) side of the PCB where the MCU is mounted.
 
