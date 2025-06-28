@@ -85,7 +85,7 @@ You can replace the nuts and spacers by using standoffs and taller screws on bot
 <a name="firmware"></a>
 ## 💾 Firmware
 
-A ready-to-use ZMK configuration for this hardware is available at:  
+A ready-to-use ZMK configuration for this keyboard is available at:  
 [zmk-config-scyboard](https://github.com/Scybin/zmk-config-scyboard)
 
 - Includes keymaps, macros, and custom behaviors tailored for this board.
