@@ -80,7 +80,7 @@ I built my keyboard using the 3D printed bottom case, which requires M2x3 screws
 ![m2x3_screw_spacer](https://github.com/user-attachments/assets/96f26f31-05b4-4ecd-aeb4-7889de3a4467)
 ![assembled_case](https://github.com/user-attachments/assets/c5cd95bc-1be1-412f-810b-84f73f5b5ab3)
 
-You can replace the nuts and spacers by using standoffs and taller screws on both sides of the standoff. I included files for a plate if you decide to go this route. I find that the switches stay in place well without the plate. It is also easier to disassemble keyboard without the plate. 
+You can replace the nuts and spacers by using standoffs and taller screws on both sides of the standoff. I included files for a plate if you decide to go this route.
 
 <a name="firmware"></a>
 ## 💾 Firmware
