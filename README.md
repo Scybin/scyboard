@@ -75,6 +75,10 @@ In addition, here are some specific notes for the scyboard:
 - Solder the MCU jumper pads on the *same* (top) side of the PCB where the MCU wis mounted.
 - Solder the JST battery connector jumpper pads on the *opposite* (back) side of the PCB where the MCU is mounted.
 
+I built my keyboard using the 3D printed bottom case, which requires M2x3 screws and knurled insert nuts. To mount the PCB directly to the case, use the 3D printed M2x3 spacers between the screw and PCB for each hole. 
+
+You can replace the nuts and spacers by using standoffs and taller screws on both sides of the standoff. I included files for a plate if you decide to go this route. I find that the switches stay in place well without the plate. It is also easier to disassemble keyboard without the plate. 
+
 <a name="firmware"></a>
 ## 💾 Firmware
 
