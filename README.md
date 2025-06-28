@@ -1,6 +1,7 @@
 # scyboard
 
 ![scyboard](https://github.com/user-attachments/assets/b19730be-ccca-4301-9293-8a47856596a3)
+![scyboard_plated](https://github.com/user-attachments/assets/8235a60b-1e90-49bf-8fef-073d759e5e49)
 
 ## 📚 Table of Contents
 
