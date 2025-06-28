@@ -47,6 +47,7 @@ units:
   screw_size: 1.5 # M2 flathead screw
   screw_x: (-kx/2) # Screw position on x-axis
   screw_y: (-ky/2) # Screw position on y-axis
+  switchplate_screw_hole: 1.1 # Switchplate screw hole radius
 
   # Standoff variables
   standoff_size: 2.5 # Threaded screw inserts 3.2mm wide, and 3mm tall
@@ -197,6 +198,15 @@ outlines:
       fillet: 2
       where: [thumb_space, thumb_reach]
       size: [1.5kx,ky]
+    switch_cutout:
+    - what: rectangle
+      fillet: 0
+      where: /key/
+      size: [kcow,kcoh]
+    - what: rectangle
+      fillet: 0
+      where: [thumb_space, thumb_reach]
+      size: [kcow,kcoh]     
     pcb:
     - what: polygon
       operation: stack
@@ -236,6 +246,55 @@ outlines:
           shift: [-0.45px,-0.6py]                    
         - ref: thumb_tuck
           shift: [-0.5px,-0.6py]               
+        - ref: matrix_pinky_bottom
+          shift: [0.5px,-0.7py]                                      
+        - ref: matrix_outer_bottom
+          shift: [-0.6px,-0.6py]
+    switchplate:
+    - what: polygon
+      operation: stack
+      fillet: 0
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.6px, 0.5py]
+        - ref: matrix_pinky_top
+          shift: [-0.5px, 0.7py]
+        - ref: matrix_ring_top
+          shift: [-0.5px, 0.6py]
+        - ref: matrix_middle_top
+          shift: [-0.5px, 0.6py]
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.6py]
+        - ref: matrix_index_top
+          shift: [0.5px, 0.6py]         
+        - ref: matrix_inner_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_top
+          shift: [0.5px, -0.5py]
+        - ref: matrix_inner_bottom
+          shift: [0.5px, -0.1py]      
+        - ref: thumb_reach
+          shift: [-0.9kx, -0.45py]
+        - ref: thumb_reach
+          shift: [-0.9kx, 0.6py]
+        - ref: thumb_reach
+          shift: [0.9kx, 0.6py]        
+        - ref: thumb_space
+          shift: [0.9kx, 0.45py]
+        - ref: thumb_space
+          shift: [0.9kx, -0.45py]          
+        - ref: thumb_layer
+          shift: [-0.45px,-0.6py]                    
+        - ref: thumb_tuck
+          shift: [-0.5px,-0.6py]
+        - ref: matrix_pinky_bottom
+          shift: [32, -0.85py]   
+        - ref: matrix_pinky_bottom
+          shift: [32, 0.1py]         
+        - ref: matrix_pinky_bottom
+          shift: [15, 0.1py]    
+        - ref: matrix_pinky_bottom
+          shift: [15, -0.72py]                          
         - ref: matrix_pinky_bottom
           shift: [0.5px,-0.7py]                                      
         - ref: matrix_outer_bottom
@@ -287,6 +346,10 @@ outlines:
     - what: circle
       radius: screw_size
       where: /screw/
+    plate_hole: 
+    - what: circle
+      radius: switchplate_screw_hole
+      where: /screw/
     standoff:
     - what: circle
       radius: standoff_size
@@ -294,8 +357,12 @@ outlines:
     _combo:
     - what: outline
       name: pcb
+    - operation: subtract
+      name: switch_cutout
+    - operation: subtract
+      name: plate_hole
     - operation: stack
-      name: xlBoard
+      name: switchplate
 
 pcbs:
   scyboard:
@@ -430,6 +497,9 @@ cases:
   bottom:
     - name: pcb
       extrude: 1
+  switchplate:
+    - name: switchplate
+      extrude: 1
   xlBottom:
     - name: xlBoard
       extrude: 1
@@ -449,6 +519,8 @@ cases:
   _holes:
     - name: mounting
       extrude: 4
+  _plate_holes:
+    - name: plate_hole
   _standoffs:
     - name: standoff
       extrude: 4
@@ -464,4 +536,16 @@ cases:
       operation: add
     - what: case
       name: _holes
+      operation: subtract
+  _switch_holes:
+    - name: switch_cutout
+  switchplate_case:
+    - what: case
+      name: switchplate
+      operation: add
+    - what: case
+      name: _switch_holes
+      operation: subtract
+    - what: case
+      name: _plate_holes
       operation: subtract
