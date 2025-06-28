@@ -78,7 +78,7 @@ In addition, here are some specific notes for the scyboard:
 
 You can use the 3D printed bottom case without a plate. This requires M2x4 screws on the top, M2X3 screws on the bottom, knurled insert nuts, and 3D printed spacers. To mount the PCB directly to the case, use the 3D printed M2x3 spacers between the screw and PCB. 
 
-![m2x3_screw_spacer](https://github.com/user-attachments/assets/96f26f31-05b4-4ecd-aeb4-7889de3a4467)
+![screw_spacer](https://github.com/user-attachments/assets/ef3eff7b-e7f6-42c6-901a-7139196d5e08)
 ![assembled_case](https://github.com/user-attachments/assets/c5cd95bc-1be1-412f-810b-84f73f5b5ab3)
 
 If you want to add a plate to the build, you can replace the nuts and spacers by using M2x6 standoffs. I included files for a plate if you decide to go this route.
