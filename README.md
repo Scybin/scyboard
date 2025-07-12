@@ -90,14 +90,10 @@ If you want to add a plate to the build, you can replace the nuts and spacers by
 <a name="firmware"></a>
 ## 💾 Firmware
 
-A ready-to-use ZMK configuration for this keyboard is available at:  
-[zmk-config-scyboard](https://github.com/Scybin/zmk-config-scyboard)
+A ZMK module for this keyboard is available at:  
+[zmk-keyboard-scyboard](https://github.com/Scybin/zmk-keyboard-scyboard)
 
-- Includes keymaps, macros, and custom behaviors tailored for this board.
-- Compatible with the [ZMK Keymap Editor](https://nickcoutsos.github.io/keymap-editor/).
-- For firmware details, see the [ZMK Documentation](https://zmk.dev/docs/).
-
-To get started, fork or clone the config and follow the flashing instructions in the ZMK docs.
+To get started, add the module to your west.yaml file and follow the flashing instructions in the ZMK docs.
 
 <a name="thanks"></a>
 ## 🙏 Thanks
