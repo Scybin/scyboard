@@ -42,7 +42,7 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 <a name="project-status"></a>
 ## 📊 Project Status
 
-The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected. I am working on moving the ZMK repository to a module.
+The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected.
 
 <a name="parts-list"></a>
 ## 📦 Parts List
