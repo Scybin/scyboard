@@ -44,6 +44,8 @@ Scyboard is a custom, open-source mechanical keyboard designed for ergonomic com
 
 The prototype has been built successfully. All aspects of the keyboard and firmware behave as expected.
 
+IMPORTANT - The Zephyr 4.1 update broke the firmware for this keyboard (under the [💾 Firmware](#firmware) section below). I will be working to update the firmware to be compatible with the most recent Zephyr update ASAP.
+
 <a name="parts-list"></a>
 ## 📦 Parts List
 
