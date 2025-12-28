@@ -108,6 +108,7 @@ To get started, add the module to your west.yaml file and follow the flashing in
 - **[Corne by foostan](https://github.com/foostan/crkbd):** For thumb cluster inspiration.
 - **[FlatFootFox](https://flatfootfox.com/ergogen-introduction/):** For an Ergogen tutorial.
 - **[nickcoutsos](https://nickcoutsos.github.io/keymap-editor/):** For the ZMK Keymap Editor browser app.
+- **[joe-scotto](https://github.com/Scybin/scottokeebs/tree/dab518b84248842a73bc8f1feb84828ada38bbac/Extras/ScottoKicad):** For a 3d model library
 - Open Source Community: For sharing knowledge, scripts, and inspiration.
 
 <a name="license"></a>
